@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _build
+  title: "Quest Logs"
+
+format:
+  html:
+    theme: cosmo
+
+site:
+  title: "Quest Logs"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Magic & Wizarding"
+        href: myw/index.html
+
+# To avoid execute code in Github actions
+execute:
+  freeze: auto
