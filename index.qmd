@@ -1,0 +1,13 @@
+---
+title: "Quest Logs"
+format: html
+editor: visual
+---
+
+## Proyecto
+
+La siguiente página es un repositorio con materiales para partidas de D&D del grupo Yatekomo.
+
+## Referencias
+
+-   [Github repository](https://github.com/jparisu/quest-logs)

@@ -1,0 +1,15 @@
+---
+title: "Magic & Wizarding"
+listing:
+  contents: ["material/*.qmd"]
+  type: grid
+  fields: [image, title, subtitle]
+---
+
+Versión: 0.1.0
+
+Autor & DM: Power
+
+## Descripción
+
+Este juego se basa en el mundo mágico de Rowling, pero no se limita a él.

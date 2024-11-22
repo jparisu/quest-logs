@@ -1,0 +1,626 @@
+---
+title: Manual Completo
+format:
+   html:
+      toc: true
+      toc-depth: 3
+---
+
+# Índice
+
+# Sistema de Juego y Mecánicas
+
+## Elaboración del Personaje
+
+Los jugadores deberán rellenar la ficha de personaje, donde deberán describir el trasfondo del personaje, su apariencia física, y qué atributos mágicos posee.
+
+Los personajes cuentan con __45__ puntos de vida.
+
+El personaje cuenta con una cierta cantidad de dinero que lleva encima, pudiendo ser de 0 a 100 galeones.
+Se deberá tener en cuenta el transfondo del personaje para asignar esta cantidad al inicio de la aventura, y validada por el DM.
+
+### Inventario
+
+El inventario de un personaje define en cierta medida la personalidad del personaje.
+Cada personaje debe llevar una __varita__, y puede llevar un objeto mágico único, que ocupará un espacio de su inventario y que podrán usar en situaciones de emergencia.
+
+Su equipaje a lo largo de la partida puede constar de otros objetos comunes como [pociones](#pociones), recuerdos familiares, articulos de broma, kits de elaboración de pociones... hasta un máximo de __4__ objetos en su inventario.
+
+Algunos ejemplos de objetos mágicos únicos son escobas voladoras u otros objetos encantados como espejos comunicadores, pensaderos o brújulas encantadas.
+Se reconocen dentro de este grupo de objetos mágicos únicos aquellas mascotas mágicas como lechuzas, jobberknolls o kneazles, que puedes ayudar al personaje con mensajes y/o correos.
+También se incluyen otras critaturas como escarbatos, crups, serpientes (si hablas pársel...) para que te acompañen a lo largo de la aventura.
+A diferencia del resto de objetos mágicos comunes, el jugador no podrá deshechar ni deshacerse de su objeto mágico único a voluntad.
+A lo largo de la partida se podrán adquirir nuevas pociones, kits u otros objetos comunes.
+Para dudas o sugerencias, consultar con el DM.
+
+Si el jugador decide empezar, por ejemplo, con una criatura mágica de compañía, una poción y un Kit de pociones básico, contará con un espacio libre en el inventario a lo largo de la partida.
+
+_Nota: si se desea contar con alguna poción desde el inicio de la partida, se podrá optar únicamente a pociones con complejidad acorde al conocimiento de [pociones](#pociones) del personaje._
+
+### Estadísticas base del personaje
+
+Cada personaje está definido por una serie de habilidades, y por un conocimiento en distintas áreas de la magia:
+
+1. __[Pociones](#pociones)__: Crear pociones para curar, mejorar características o resolver problemas.
+1. __[Criaturas mágicas](#criaturas-mágicas-y-herbología)__: Interactuar con criaturas y plantas, además de domesticarlas o entenderlas.
+1. __[Encantamientos](#encantamientos)__: Realizar magia dentro y fuera de combate.
+1. __[Erudición mística](#erudición-mística)__: Conocimiento profundo de la magia.
+   Tener visiones o interpretar señales.
+
+Cada jugador deberá asginar  __15__ puntos a repartir entre las distintas habilidades, y __10__ entre las ramas de la magia, con las siquientes restricciones:
+
+* Cada habilidad y rama de la magia debe de tener al menos __1__ punto asignado.
+* __5__ puntos es el máximo asignable para cualquier habilidad y rama de la magia.
+
+### Habilidades:
+
+* __Potencial Mágico__: Capacidad innata de canalizar la magia.
+* __Control de Varita__: Afecta la precisión y potencia de los hechizos.
+* __Resistencia Mágica__: Defensa natural contra ataques mágicos.
+* __Velocidad__: Cantidad de movimiento por turno e iniciativa.
+  Por defecto es posible moverse 1 casilla por turno.
+  Si esta habilidad tiene __3__ (ó 4) puntos, podrá moverse también en diagonal.
+  Además, si esta habilidad tiene __5__ puntos, podrá moverse 2 casillas __(el segundo movimiento NO será en diagonal)__.
+* __Destreza__: Para acciones como preparar pociones, abrir cerraduras, manejar objetos o pasar desapercibido.
+* __Carisma__: Persuasión e interacciones sociales o con otras criaturas mágicas.
+* __Inteligencia__: Conocimiento y aplicación del mismo sobre cultura mágica y no mágica.
+
+### Ramas de la magia
+
+__Pociones__:
+
+Habilidad para preparar pociones mágicas utilizando ingredientes variados.
+Esto incluye pociones curativas, transformadoras, de mejora de habilidades, o de efectos adversos.
+
+1. Habilidad en la elaboración: Capacidad para seguir la complejidad de los procesos y técnicas de la elaboración de pociones sin errores.
+1. Kit de Pociones: Cantidad de utensilios, materiales e ingredientes necesarios para la elaboración.
+
+Se requiere una cierta cantidad de puntos de habilidad el la elaboración para acceder a pociones de mayor complejidad.
+Además, se precisa de Kits de elaboración de pociones en función de los procesos de elaboración y de los ingredientes necesarios.
+
+La calidad de la poción elaborada se evaluará con una tirada de _destreza_: D20 + _destreza_ del personaje.
+
+Para más información, consultar la sección de pociones.
+
+__Criaturas Mágicas y Herbología__:
+
+Habilidad para interactuar con criaturas mágicas y plantas mágicas.
+Los jugadores pueden domesticar criaturas y/o plantas mágicas, comprender su comportamiento, usarlos para crear soluciones o defensas, etc.
+
+1. Conocimiento: Identificación y clasificación de criaturas y plantas mágicas.
+1. Comunicación e Interpretación: Capacidad de interactuar con criaturas mágicas, relacionado con carisma.
+
+__Encantamientos__:
+
+Habilidad para realizar magia combativa y no combativa, con la intención de encantar objetos o generar efectos mágicos útiles.
+Esta habilidad también incluye defensas mágicas y diversas maldiciones.
+
+1. Conocimiento: capacidad para efectuar una serie de hechizos en diversas situaciones.
+1. Poder de combate: uso de hechizos conocidos en combate, relacionado con _control de varita_.
+
+Para más información, consultar la sección de hechizos.
+
+__Erudición Mística__:
+
+Es el conocimiento teórico y práctico sobre diversas disciplinas mágicas, llegando a alcanzar poderes místicos de premonición y adivinación.
+
+1. Conocimiento: conocimiento profundo de historia mágica, lectura e interpretación de runas.
+   Relacionado con _inteligencia_, acciones relacionadas con la historia, cultura o runas requerirán de tiradas de de _inteligencia_ (_inteligencia_ + D20).
+1. Interpretación: Capacidad de interpretar señales de magia, visiones a través de distintos objetos e incluso visualizar hechos que aún no han occurido.
+   Relacionado con _potencial mágico_, se requiere una tirada de _potencial mágico_ + D20.
+
+### Pistas para la personalización
+
+#### Profundidad del personaje
+
+Es recomendable tener una idea de qué personaje queremos interpretar, darle un trasfondo sobre dónde viene, qué valores tiene, qué cosas le han pasado para que tenga esa personalidad, etc...
+La guía de selección de __[varitas](#varitas-y-su-significado)__ tal vez sea de gran ayuda en estos primeros pasos.
+
+Podemos empezar con una descripción física del personaje, su pureza de sangre, los rasgos clave de su personalidad y sus defectos.
+A continuación, desarrollar sus ideales y sus objetivos personales y como mago/bruja.
+
+Con toda esa información, será mucho más fácil determinar a qué casa de Hogwarts perteneció, a qué se dedica, cual es su historia desde que salió de Hogwarts, que cualidades especiales tiene, etc.
+
+#### Equilibrio del personaje
+
+Con el personaje más o menos encauzado, es hora para la repartición de puntos en sus características.
+Se puede optar por un personaje equilibrado, otorgando equitativamente los puntos a repartir entre las distintas opciones posibles (3-3-2-2 para las ramas de la magia y 3-2-2-2-2-2-2 para sus habilidades), o bien especializarlo en ciertos ámbitos.
+A continuación se ven descritas algunas estrategias en función de posibles perfiles de personajes a desarrollar:
+1. Experto en duelos: con altas puntuaciones (4 ó 5) en la rama de encantamientos, debería acompañar esta asignación con mejorar la habilidad de _control de varita_ de manera equivalente.
+   La _resistencia mágica_, _velocidad_, y, en menor parte, _destreza_, son otras habilidades a tener en cuenta.
+1. Experto en encantamientos: igualmente con alta puntuación en encantamientos, puede optar en combate tanto por un rol agresivo como un rol de apoyo para alterar el entorno a su favor o especializarse en la defensa del grupo.
+   Rol ideal para el uso de complicados hechizos fuera de combate, y dedicar el resto de puntos a otras ramas de la magia.
+   En cuanto a habilidades, su _destreza_, _resistencia mágica_ y _carisma_ serían a tener más en cuenta en la repartición.
+1. Experto en pociones: altas puntuaciones para la rama de pociones, puede tener peso también en situaciones de combate pero sobre todo fuera de él.
+   Deberá contar _destreza_ para las elaboraciones, espacios en el inventario para su almacenamiento y dinero suficiente para poder costear su elaboración.
+   Se recomendaría mejorar otros campos como _inteligencia_ o _resistencia mágica_.
+1. Experto en criaturas: alta puntuación en criaturas y _carisma_ para entenderla y poder sacar partido de ellas.
+   En casos de situaciones graves o de peligro causadas por criaturas muy peligrosas, este personaje sabría cómo reaccionar y salir del paso o incluso aprovecharlas a su favor.
+   En ocasiones de combate, el uso de criaturas domesticadas o plantas mágicas puede ser un elemento disuasorio, o un arma muy poderosa.
+1. Experto en adivinación: alta puntuación en _erudición mágica_, para desbloquear habilidades de percepción de peligros inminentes, magia oscura, interpretar señales del futuro de otros jugadores o incluso el poder de tener premoniciones y adivinar el futuro.
+   Sería aconsejable mejorar también para ello el _potencial mágico_ y la _inteligencia_ del personaje.
+   Este personaje además tendría la capacidad de establecer buena comunicación con otros seres mágicos que son reacios a la interacción con magos y brujas.
+
+Con todo ello, de podrá definir su predisposición a la hora de resolver conflictos (basada en combates, mediar o dialogar, engañar, escapar...), su estilo de combate (ofensivo, defensivo, creador de oportunidades, alterador del entorno, escapista...), u otras facultades clave a lo largo de la partida.
+
+## Turnos: Sistema de Iniciativa
+
+El sistema de turnos está diseñado para que los jugadores puedan actuar de forma organizada, sobre todo en combate o situaciones de tensión.
+Para determinar el orden, el sistema de iniciativa está basada en tirada de dados.
+
+### Escala de Dificultad (D20)
+
+1. Tirada __trivial__ (muy fácil): __4__ o más (85% de éxito)
+
+   La mayor parte de las veces el personaje debería tener éxito.
+   Si sumamos modificadores (como _destreza_ o _control de varita_), será prácticamente un éxito automático.
+
+1. Tirada __fácil__: __7__ o más (70% de éxito)
+
+   Algo que no presenta mucho desafío, pero aún con una pequeña posibilidad de fallo.
+   Con modificadores, los personajes competentes probablemente tengan éxito sin mucho problema.
+
+1. Tirada __moderada__: __10__ o más (55% de éxito)
+
+   Esto representa el equilibrio: la mitad del tiempo podría fallar o tener éxito, dependiendo de las habilidades del personaje.
+   Con modificadores adecuados, los personajes entrenados tendrán más éxito.
+
+1. Tirada __difícil__: __15__ o más (30% de éxito)
+
+   Aquí la dificultad es evidente.
+   Los personajes con habilidades especializadas tendrán mejores probabilidades gracias a sus modificadores, pero el desafío aún es significativo.
+
+1. Tirada __extrema__ (muy difícil): __19__ o más (10% de éxito)
+
+   Solo los personajes muy hábiles o con ventajas (como hechizos o equipo especial) podrán superar este nivel de dificultad de forma confiable.
+
+__Éxito Crítico__: 20 natural (éxito sobresaliente / crítico, nueva tirada D20).
+
+__Fracaso Crítico__: 1 natural (fracaso grave), a interpretación del DM.
+
+## Sistema de Acciones: Combate
+
+En el mundo mágico, el combate es principalmente de hechizos, así que usaremos un sistema basado en tiradas de dados para determinar el éxito de un hechizo.
+Al inicio de un combate, todos los jugadores y enemigos tiran un dado de 20 caras (D20).
+Se suma el resultado de la tirada a la habilidad de _velocidad_.
+El personaje con el número más alto actúa primero, y así sucesivamente.
+Si hay empates, puedes usar una segunda tirada para desempatar.
+Para que  el combate sea fluido pero estratégico, se efecturarán hasta una de las siguientes acciones por turno:
+
+1. Acción de movimiento: Cada jugador tiene un número de casillas o espacios que puede moverse en su turno.
+   Esto depende de su estadística de _velocidad_: Por defecto es posible moverse 1 casilla por turno.
+   Si el personaje tiene __3__ (ó 4) puntos de _velocidad_, podrá moverse también en diagonal.
+   Además, si esta habilidad tiene __5__ puntos, podrá moverse 2 casillas __(el segundo movimiento NO será en diagonal)__.
+1. Acción de ataque o hechizo: Pueden lanzar un hechizo o atacar a un oponente.
+   Esto se resolverá con tiradas de dados (detalladas en la sección de [ataque](#ataque-hechizo-ofensivo)).
+1. Acción de interacción: Pueden interactuar con un objeto del escenario o usar una poción.
+1. Acción de defensa: Uso de hechizo de protección para aumentar su _resistencia mágica_ hasta su próximo turno.
+1. Acción de concentración: reserva su turno para contar con una tirada D6 adicional a todas las tiradas de D20 de su próximo turno.
+
+Ejemplo de Flujo de Combate:
+
+* El jugador A lanza un hechizo _Expelliarmus_ al enemigo B.
+* Lanza un D20, suma su _control de varita_ (_CDV_) (por ejemplo, 3), y obtiene 15 total.
+* El enemigo B tiene una _resistencia mágica_ de 12, así que el ataque impacta.
+* Se determina el daño del hechizo (2 de base, + 3 de _CDV_ = 5).
+  En elemigo B recibiría 5 puntos de daño.
+* Además, como el jugador A ha obtenido 15 en la tirada, superior al rango de desarme de _Expelliarmus_, desarma al enemigo B.
+* El enemigo B en su turno decide moverse para ponerse a cubierto de futuros ataques.
+
+### Ataque (hechizo ofensivo):
+
+El jugador anuncia el hechizo que va a lanzar (puede ser un hechizo básico como Expelliarmus, Confundo, etc.) y su objetivo.
+Lanza un D20 y suma su estadística de _control de varita_.
+El enemigo puede optar usar la __[Reacción defensiva](#reacción-defensiva)__, pero debe anunciarlo antes de el jugador efectue la tirada.
+Por ello el jugador debe esperar la confirmación del enemigo.
+Si el número supera la defensa del enemigo (un número basado en la estadística de _resistencia mágica_), el hechizo acierta.
+Si no, el hechizo falla o es esquivado.
+Algunos hechizos requiren de mayor precisión, de forma que para que acierten deberán superar umbrales mayores que el de la defensa del enemigo.
+Ese umbral varía por hechizo, y cuando más poderoso es, mayor es el umbral de precisión.
+
+### Daño:
+
+Si el hechizo acierta, el daño y/o efectos adversos se aplicarían en el enemigo en función del hechizo lanzado.
+En general, se aplicará el daño base del hechizo, sumado al _control de varita_ del atacate.
+Algunos hechizos pueden tener daño adicional, efectuando una tirada adicional del dado que corresponda por hechizo:
+
+1. El daño de impacto se aplica una única vez.
+1. El daño de precisión se aplica una única vez, pero se ve afectado por la acción de concentración (+ D6).
+1. El daño pasivo se aplica a un objetivo para cambiar su estado a "Susceptible".
+   A partir de entonces, y hasta que no se recupere, cada vez que reciba cualquier daño de cualquier fuente, se deberá aplicar una tirada adicional de daño pasivo.
+
+Consulta la tabla de hechizos en combate para más información.
+
+### Defensa mágica:
+
+Los jugadores pueden defenderse usando hechizos defensivos (como Protego) que también requieren tirada de D20.
+Este valor se sumará a la defensa mágica del jugador.
+Cuando el daño sobre el jugador se aplicará en orden: denfensa mágica, _resistencia mágica_ y vida.
+Tras aplicar el daño, la _resistencia mágica_ del jugador se restablecerá, pero su defensa mágica y/o vida se verán reducidas.
+Si el jugador pierde todos los puntos de vida, fallecerá.
+
+Ejemplo de Defensa mágica:
+
+* El jugador A recibe una defensa mágica de 10 puntos, una _resistencia mágica_ de, por ejemplo, 3 puntos, y 20 puntos de vida.
+* El enemigo B tras acertar un ataque, causaría 6 puntos de daño totales al jugador A.
+* El jugador A pierde 6 puntos de la defensa mágica.
+  Al jugador A le quedan 4 puntos de defensa mágica, 3 puntos de _resistencia mágica_ y 20 puntos de vida.
+* El enemigo C tras acertar un ataque, causaría 9 puntos de daño totales al jugador A.
+* El jugador A pierde su defensa mágica, y 2 puntos de vida.
+  Al jugador A le quedan 0 puntos de defensa mágica, 3 puntos de _resistencia mágica_ y 18 puntos de vida.
+
+En caso de combate físico (en caso de criaturas mágicas o situaciones sin magia), funcionará de manera similar:
+El jugador o criatura realiza un ataque físico y lanza un D20.
+Si supera la defensa (mágica) del oponente, el ataque acierta y se aplica daño.
+
+### Reacción defensiva:
+
+Un jugador puede usar la reacción defensiva al ser notificado como receptor de un ataque.
+Esta reacción debe ser anunciada antes de que el enemigo efectúe la tirada D20 + _CDV_.
+De no ser así no tendrá efecto.
+
+Este mecanismo sacrifica el próximo turno del jugador, con el fin de defenderse ante una situación crítica.
+Además, si la tirada no tiene éxito, no solo recibirá el daño sino que además perderá su próximo turno.
+El jugador puede decidir entre:
+
+1. Usar hechizos de protección.
+   No es eficaz contra ataques letales (_Avada Kedavra_).
+1. Esquivar el ataque.
+   Requiere una tirada de Agilidad (_velocidad_ + D20) superior a la tirada _CDV_ + D20 del enemigo.
+
+
+## Sistema de Habilidades
+
+Las habilidades fuera de combate son esenciales (investigación, resolver acertijos, interacción con NPCs, etc.).
+Estas se gestionam de forma similar al combate, con tiradas de dados basadas en las estadísticas del personaje.
+
+Cuando un jugador quiere realizar una acción no combativa (por ejemplo, examinar el entorno), tira un D20.
+Se suma la estadística relevante (por ejemplo, _destreza_) y se compara con una dificultad establecida por el DM (por ejemplo, darse cuenta de que hay un objeto mágico en el suelo entre la hojarasca necesita una tirada de dificultad moderada).
+Esto hace que las habilidades de cada personaje sean importantes y se puedan personalizar para que cada jugador tenga algo en lo que especializarse.
+
+# Partida
+
+_Nota: esta sección estará en constante evolución durante el transcurso de la partida para dejar constancia del desarrollo de la misma, los hitos superados y el hilo argumental de la partida._
+
+## Primeros pasos
+
+La partida se desarrolla en el mundo mágico de J.K. Rowling, respetando los hechos hasta ahora conocidos de todas las __novelas__ y otras fuentes __canon__.
+Más concretamente, se desarrolla en la actualidad, finales del año 2024.  Esto quiere decir que los hechos ocurridos, por ejemplo, en los libros de  _Harry  Potter_ (que tuvieron lugar entre 1991 y 1997) forman parte del posible pasado de los personajes.
+
+Para el desarrollo de cada personaje, se recomienda seguir la dinámica de que el grupo de jugadores son __amigos__ y __ex-compañeros__ de clase de Hogwarts, habiendo estudiado juntos y pudiendo tener anécdotas o historias en común entre personajes (_a elaborar y discutir en la previa elaboración de la partida, o incluso durante la misma_).
+Cada personaje habrá seguido un rumbo en la comunidad mágica, pudiendo tener un trabajo mágico, familia, etc.
+
+# Anexos
+
+# Varitas y su significado
+
+La varita es la que escoge al mago.
+De tal forma, la personanildad y características mágicas del personaje definen, en gran medida, qué varita le escogería.
+
+_Las descripciones no limitan las acciones de los jugadores, sino que dan profundidad a su personaje._
+
+## Núcleos
+
+Aunque existen numerosos núcleos para varitas mágicas, los aqui presentes son los considerados más poderosos en la magia europea.
+
+1. __Fibra de corazón de dragón__: proporciona una magia agresiva, poderosa y llamativa.
+   Favorece el aprendizaje, y la magia oscura, pero no tiene mucha fidelidad hacia su maestro.
+1. __Pelo de unicornio__: proporciona una magia más orientada a la templanza, la defensa y protección.
+   Incapaz de dañar de gravedad, pero incrementa sus capacidades con el paso del tiempo por la alta fidelidad hacia su maestro.
+1. __Pluma de fénix__: proporciona una magia ágil, atrevida y potente.
+   En cambio, require un largo proceso de aprendizaje y dominación para explotar su potencial, y no todos los portadores la alcanzan pues es caprichosa y exigente.
+1. __Pelo de Veela__: proporciona una magia caótica, temperamental y explosiva.
+   Canaliza un gran potencial mágico de forma inestable, pero es certera y capaz de conjurar todo tipo de hechicerías.
+   Carece de fidelidad, por lo que Ollivander no las fabrica personalmente.
+
+## Maderas
+
+Cada madera revela distintas características de la magia y la personaliad del jugador:
+
+1. __Abeto__: fuerza de voluntad, mente fuerte y con propósitos.
+   Ideal para la concentración y para los conjuros transformadores.
+1. __Acacia__: material hecho a medida para aquellos magos y brujas con un don natural para la magia.
+   Canalizan profundamente la fidelidad de la varita hacia el maestro.
+1. __Acebo__: carácter impetuoso, pero concentra el poder en superar la ira y el hastío.
+   Ideal para magos y brujas que buscan un equilibrio espiritual.
+1. __Álamo__: muy coomún entre las esferas políticas, debido a su consistencia, determinación y poder moral.
+1. __Alerce__: possee un talento oculto e innato, pero con poca confianza o valor hasta que no es revelado.
+1. __Aliso__: carácter afable, considerado y empático, ideal para hechizos de sanación.
+1. __Arce__: destaca por su ambición y ganas de aventura.
+   Compañero ideal para viajeros y exploradores.
+1. __Avellano__: proporciona un autocontrol emocional, serenidad y firmeza necesarias a quien lo necesita.
+1. __Caoba__: proporciona fuerza y seguridad, ideal para hechizos defensivos.
+1. __Carpe__: aguarda talento, honor y una gran fidelidad hacia su maestro.
+1. __Castaño__: ideal para el trabajo de campo con plantas, domadora de bestias y para escobas voladoras.
+1. __Cedro__: madera de gran mago o bruja, con carácter pespicaz, astuto y que pasa inadvertido.
+1. __Cerezo__: canaliza y potencia la magia poderosa, pero requiere de fuerza de voluntad y autocontrol.
+1. __Ciprés__: carácter audaz y leal.
+   Su maestro deberá ser una persona valiente, abnegada y dispuesta a sacrificarse por aquellos que le importan.
+1. __Ébano__: poderosa en combate, realza los valores  y creencias propios, y promueve el creen en tus instintos.
+   Proporciona cierta predisposición a los hechizos de transformación.
+1. __Endrino__: madera de guerrero, pues necesita sobrepasar un peligro para unirse a su maestro por siempre.
+   Muy poderosa en combate cuando se alcanza todo su potencial.
+1. __Espino__: potencia extremos de la magia como son la sanación y las maldiciones.
+   Canaliza el gran talento de su maestro, pese a sus recurrentes confuciones y conflictos interiores sobre lo bueno y lo malo.
+1. __Fresno__: carácter obstinado y valiente. Muy fiel, para magos y brujas nobles, sin una pizca de grosería ni arrogancia.
+1. __Haya__: difícil de domar si no se cuenta con conocimientos, experiencia y sabiduría.
+   Muy poderosa en la magia cuando se alcanza dicho umbral.
+1. __Laurel__: solo un corazón puro y con grandes ambiciones podrá aprovechar todo el gran poder que aguarda este material.
+1. __Manzano__: carácter reservado, fuertes ideales y un gran poder.
+1. __Nogal__: se mueve por instintos, con un carácter versátil, innovador y de gran adaptabilidad.
+1. __Olmo__: solo se puede domar con una limpieza de sangre de generaciones.
+   Produce una magia elegante, avanzada y con una destreza exquisita.
+1. __Peral__: muy pobre a la hora de emplear magia oscura, este material es popular y respetado por los fabricantes.
+   Carácter sensato, generoso y resistente contra adversidades.
+1. __Picea__: carácter audaz y con sentido del humor, y con la firmeza necesaria para no dudar en situaciones de crisis.
+1. __Pino__: material muy longevo con carácter independiente, solitario y misterioso.
+   Muy poderosa y gran canalizadora de magia no verbal.
+1. __Roble__: caracter leal, fuerte, caliente y de gran coraje.
+   Muy poderosa en la magia natural, con un gran sentido de la intuición.
+1. __Sauce__: gran canalizadora de magia curativa y no verbal.
+   Produce una gran seguridad a su maestro.
+1. __Secuoya__: carácter astuto, hábil y con fortuna en las acciones que desempeña.
+1. __Serbal__: portadora de gran poder para los encantamientos defensivos.
+   Ideal para duelos por su potencia, tan solo domada por maestros de corazón e intenciones puras.
+1. __Tejo__: carácter inusual y extravagante, con gran poder de canalización de la magia en maldiciones y hechizos de daño.
+   Ideal para duelistas habilidosos.
+1. __Vid__: ideal para maestros leales y con grandes propósitos y visiones profundas.
+
+
+## Longitud y flexibilidad
+
+Las varitas más largas tienden a ser atraídas a personalidades más grandes, y las de un estilo de magia más espacioso y dramático.
+Aquellas varitas anormalmente cortas generalmente seleccionan aquellos magos en cuyo carácter le falta algún elemento notorio.
+Las varitas más nítidas (dinámicas) favorecen el lanzamiento de hechizos más elegantes y refinados.
+Sin embargo, ningún aspecto de la composición de la varita debe considerarse aisladamente de todos los demás, y el tipo de madera, el núcleo y la flexibilidad pueden contrarrestar o mejorar los atributos de la longitud de la varita.
+
+La mayoría de las varitas estarán en el rango de entre 22 y 35 centímetros.
+Si bien existen varitas extremadamente cortas (20 centímetros) y varas muy largas (más de 38 centímetros), estas son excepcionalmente raras.
+
+La flexibilidad o rigidez de la varita denota el grado de adaptabilidad y disposición a cambiar de mago o bruja cuando su maestro original le fue arrebatado, aunque, nuevamente, este factor no debe considerarse por separado de la madera, el núcleo y la longitud de la varita, ni la experiencia de vida del propietario y estilo de magia, todo lo cual se combinará para hacer que la varita en cuestión sea única.
+
+Las varitas pueden adquirir nuevos maestros. Cuando el maestro o maestra de una varita está desarmado, aturdido o muerto, la varita puede aceptar al atacante del viejo maestro como su nuevo maestro.
+La mayoría de las varitas están adheridas a sus maestros y no descontinuarán fácilmente su lealtad con el maestro anterior.
+De hecho, parece poco probable que se rompa el vínculo original; si lo fuera, entonces una bruja o mago derrotado le sería más útil adquirir una varita nueva en lugar de seguir usando la original porque ya no le rendiría el máximo rendimiento para ellos.
+
+## Otras características
+
+Los jugagdores podrán definir y adornar las varitas con emblemas, mangos, detalles esculpidos, etc.
+Ello aportará a la varita y a su portador más carácter y mejora la profundidad del personaje.
+
+# Hechizos
+
+El uso de hechizos requiere una serie de habilidades.
+La lista de a continuación muestra los hechizos que pueden ser usados en función de su complejidad.
+Para su uso se require de:
+
+- __Conocimiento de hechizos__: puntos de habilidad mágica en la rama de encantamientos, caracterizados en la tabla como _Complejidad_.
+  Ejemplo: si tienes, 3 puntos en la rama de encantamientos, podrás optar al uso de hechizos de complejidad 1, 2 y 3.
+- __Lanzamiento del hechizo__: el lanzamiento del hechizo puede requerir tiradas de D20 (e incluso con un bonificador por "Control de Varita") para obtener bonificaciones.
+  Todas ellas están descritas en la tabla de a continuación, y en la sección de daño de combate.
+
+## Tabla de contenido
+
+|Nombre del hechizo|Complejidad|Daño|Tirada necesaria|Categoría|Descripción|Requisitos|
+|:----|:----|:----|:----|:----|:----|:----|
+|Accio|1|-|-|Utilidad|Hechizo invocador que atrae objetos hacia el conjurador. Es útil para recuperar artículos lejanos sin tener que moverse.|Pronunciación clara y concentración en el objeto deseado.|
+|Alohomora|1|-|-|Utilidad|Hechizo de apertura que desbloquea puertas y cerraduras. Es uno de los primeros hechizos que aprenden los estudiantes.|Movimiento de varita, pronunciación correcta y enfoque en el objetivo.|
+|Aquamenti|1|-|-|Utilidad|Invoca agua pura desde la varita, útil para diversas situaciones, incluyendo la hidratación.|Pronunciación clara y un movimiento de varita.|
+|Braquiam Emendo|1|-|-|Sanación|Repara fracturas en extremidades de forma efectiva. Se utiliza comúnmente en primeros auxilios mágicos.|Pronunciación clara y un movimiento de varita adecuado.|
+|Colloportus|1|-|-|Utilidad|Cierra y sella puertas de manera mágica, impidiendo que se abran sin el hechizo adecuado.|Pronunciación clara y un movimiento de varita.|
+|Colovaria|1|-|-|Transformación|Cambia el color de un objeto, usado a menudo en magia decorativa.|Pronunciación clara y un movimiento de varita.|
+|Confringo|1|6 + CDV + daño impacto [D6]|Requiere relativa puntería|Encantamiento|Causa una explosión controlada y proyecta objetos por los aires. Es útil tanto en combate como en situaciones de emergencia.|Pronunciación clara y un movimiento explosivo de la varita.|
+|Confundo|1|Pérdida Acción de movimiento y defensa|-|Encantamiento|Confunde a la víctima, dificultando su capacidad para actuar o pensar con claridad. Se usa en combate y en escapatorias.|Pronunciación clara y un movimiento de varita.|
+|Expelliarmus|1|2 + CDV + Desarme|Desarmar requiere puntería|Maldición|Desarma a un oponente al expulsar objetos de sus manos. Es una técnica común en combates mágicos.|Pronunciación clara y un movimiento de varita decidido.|
+|Fiery|1|-|-|Encantamiento|Crea llamas o efectos de fuego. Usado para crear espectáculos o para asustar a los enemigos.|Pronunciación clara y un movimiento de varita.|
+|Impedimenta|1|Pérdida Acción de movimiento|-|Maldición|Detiene a un oponente y lo ralentiza, dificultando su avance. Es útil en situaciones de combate.|Pronunciación clara y un movimiento de varita.|
+|Lapifors|1|-|-|Transformación|Transforma objetos en conejos. Es un hechizo de transformación divertido y a menudo utilizado en espectáculos.|Pronunciación clara y un movimiento de varita.|
+|Lumos|1|-|-|Encantamiento|Crea luz en la punta de la varita, iluminando el entorno. Es uno de los hechizos más básicos que se enseñan.|Pronunciación clara y un movimiento circular de la varita.|
+|Nox|1|-|-|Utilidad|Apaga la luz creada por el hechizo Lumos, permitiendo la oscuridad nuevamente. Es útil para la discreción.|Pronunciación clara y un movimiento de varita.|
+|Obscuro|1|Pérdida Acción ataque y defensa|-|Maldición|Cubre los ojos de la víctima, impidiendo que vea. Útil para confundir o incapacitar temporalmente.|Pronunciación clara y un movimiento de varita.|
+|Periculum|1|-|-|Utilidad|Lanza un destello de luz roja en el aire, señalando o alertando a otros. Usado como una señal de advertencia.|Pronunciación clara y un movimiento de varita.|
+|Protego|1|10 + CDV|-|Protección|Crea un escudo mágico que bloquea ataques, protegiendo al lanzador de daños. Fundamental en duelos.|Pronunciación clara y un movimiento enfocado de la varita.|
+|Reparo|1|-|-|Utilidad|Repara objetos rotos o dañados, restaurándolos a su estado original. Es uno de los hechizos más útiles y prácticos.|Pronunciación clara y un movimiento de varita.|
+|Rictusempra|1|1 + CDV + Pérdida Acción defensa|-|Maldición|Provoca cosquillas en la víctima, incapacitando temporalmente. Puede ser usado para distraer o incapacitar oponentes.|Pronunciación clara y un movimiento de varita.|
+|Tergeo|1|-|-|Utilidad|Limpia objetos o superficies, absorbiendo la suciedad. Es un hechizo de limpieza común.|Pronunciación clara y un movimiento de varita.|
+|Titillando|1|-|-|Utilidad|Provoca cosquillas a la víctima, haciéndola reír. Usado para distraer o desarmar a oponentes.|Pronunciación clara y un movimiento de varita.|
+|Verdimillious|1|-|-|Utilidad|Crea un destello verde que puede cegar temporalmente a los enemigos. Es útil en situaciones de combate.|Pronunciación clara y un movimiento de varita.|
+
+# Hechizos de uso en combate
+
+El uso de hechizos requiere una serie de habilidades.
+La lista de a continuación muestra un recorte del total de los hechizos que pueden ser usados en combate en función de su complejidad.
+Para su uso se require de:
+
+- __Conocimiento de hechizos__: puntos de habilidad mágica en la rama de encantamientos, caracterizados en la tabla como _Complejidad_.
+  Ejemplo: si tienes, 3 puntos en la rama de encantamientos, podrás optar al uso de hechizos de complejidad 1, 2 y 3.
+- __Lanzamiento del hechizo__: el lanzamiento del hechizo puede requerir tiradas de D20 (e incluso con un bonificador por "Control de Varita") para obtener bonificaciones.
+  Todas ellas están descritas en la tabla de a continuación, y en la sección de daño de combate.
+
+_Nota: consultar con el DM para el uso de hechizos en combate que no estén en esta lista._
+
+## Tabla de contenido
+
+|Nombre del hechizo|Complejidad|Daño|Tirada necesaria|Categoría|Descripción|Requisitos|
+|:----|:----|:----|:----|:----|:----|:----|
+|Braquiam Emendo|1|-|-|Sanación|Repara fracturas en extremidades de forma efectiva. Se utiliza comúnmente en primeros auxilios mágicos.|Pronunciación clara y un movimiento de varita adecuado.|
+|Confringo|1|6 + CDV + daño impacto [D6]|Requiere relativa puntería|Encantamiento|Causa una explosión controlada y proyecta objetos por los aires. Es útil tanto en combate como en situaciones de emergencia.|Pronunciación clara y un movimiento explosivo de la varita.|
+|Confundo|1|Pérdida Acción de movimiento y defensa|-|Encantamiento|Confunde a la víctima, dificultando su capacidad para actuar o pensar con claridad. Se usa en combate y en escapatorias.|Pronunciación clara y un movimiento de varita.|
+|Expelliarmus|1|2 + CDV + Desarme|Desarmar requiere puntería|Maldición|Desarma a un oponente al expulsar objetos de sus manos. Es una técnica común en combates mágicos.|Pronunciación clara y un movimiento de varita decidido.|
+|Impedimenta|1|Pérdida Acción de movimiento|-|Maldición|Detiene a un oponente y lo ralentiza, dificultando su avance. Es útil en situaciones de combate.|Pronunciación clara y un movimiento de varita.|
+|Lapifors|1|-|-|Transformación|Transforma objetos en conejos. Es un hechizo de transformación divertido y a menudo utilizado en espectáculos.|Pronunciación clara y un movimiento de varita.|
+|Obscuro|1|Pérdida Acción ataque y defensa|-|Maldición|Cubre los ojos de la víctima, impidiendo que vea. Útil para confundir o incapacitar temporalmente.|Pronunciación clara y un movimiento de varita.|
+|Protego|1|10 + CDV|-|Protección|Crea un escudo mágico que bloquea ataques, protegiendo al lanzador de daños. Fundamental en duelos.|Pronunciación clara y un movimiento enfocado de la varita.|
+|Rictusempra|1|1 + CDV + Pérdida Acción defensa|-|Maldición|Provoca cosquillas en la víctima, incapacitando temporalmente. Puede ser usado para distraer o incapacitar oponentes.|Pronunciación clara y un movimiento de varita.|
+
+# Pociones
+
+La elaboración de pociones requiere una serie de ingredientes.
+La lista de a continuación muestra los más peculiares de la elaboración, pudiendo no ser comunes.
+Es por ello que para la elaboración de pociones se require de:
+
+- __Conocimiento de pociones__: puntos de habilidad mágica en la rama de pociones, caracterizados en la tabla como _Complejidad_.
+- __Kit para la elaboración de pociones__: el jugador debe poseer en su inventario un Kit para la elaboración de pociones.
+  * __Básico__: material justo y necesario para elaborar pociones sencillas.
+    Incluye ingredientes comunes para numerosas pociones.
+    Permite hasta __3__ elaboraciones de pociones de complejidad básica antes de quedarse sin ingredientes.
+  * __Intermedio__: proporciona balanzas, medidores y otros utensilios más sofisticados para la elaboración de pociones que requiren cierta precisión y elaboración.
+    Incluye ingredientes más complicados de conseguir, además de los comunes.
+    Permite hasta __2__ elaboraciones de pociones de complejidad intermedia antes de quedarse sin ingredientes.
+  * __Avanzado__: provee de herramientas avanzadas de cocción, fermentación y otros procesos más complejos de elaboración de pociones.
+    Además de los ingredientes del Kit Intermedio, incluye una selección de ingredientes exóticos y raros.
+    Permite __una única__ elaboración de una poción avanzada antes de quedarse sin ingredientes.
+- __Destreza del personaje__: la estadística de destreza del personaje que elabora la poción sserá fundamental para asegurar que los efectos de la poción son los esperados.
+  Se efectuará una tirada de destreza sumada a un D20, con los siguientes criterios (similares a los de la tirada de dificultad):
+  * Poción __aceptable__: __4__ o más (85% de éxito): sus efectos son volátiles y débiles.
+  * Poción __estándar__: __7__ o más (70% de éxito): sus efectos son los esperados.
+  * Poción __buena__: __10__ o más (55% de éxito): sus efectos son potentes y significativamente mejores.
+  * Poción __muy buena__: __15__ o más (30% de éxito): sus efectos son sobresalientes, de rápida actuación y muy eficaces.
+  * Poción __perfecta__ (muy difícil): __19__ o más (10% de éxito): sus efectos son perfectos e incapaces de contrarrestar (salvo por otra poción perfecta).
+
+_Nota: como los Kits Avanzado e Intermedio contienen a su vez ingredientes comunes, se pueden elaborar con ellos pociones de complejidad básica, al igual que el Kit Avanzado en relación al Kit Intermedio, con el avanzado se podrán elaborar pociones de complejidad intermedia._
+_De esta forma, un jugador con un Kit Avanzado podrá elaborar hasta 6 pociones distintas._
+
+_(Aunque los ingredientes clave puedan repetirse entre pociones, sólo se puede elaborar una poción concreta por Kit: preparar dos antídotos de venenos comunes requerirá dos kits de elaboración de pociones)_
+
+## Tabla de contenido
+
+|Nombre de la poción|Complejidad|Kit necesario|Descripción|Ingredientes Clave|Elaboración|
+|:----|:----|:----|:----|:----|:----|
+|Antídoto para venenos comunes|1|Básico|Cura venenos comunes.|Bezoar, mandrágora.|Fácil de preparar.|
+|Brebaje Bocazas|1|Básico|Hace que el bebedor no pueda dejar de hablar.|Raíz de mandrágora, pimienta roja.|Se requiere un simple proceso de cocción.|
+|Filtro de paz|1|Básico|Calma al bebedor, aliviando ansiedad y estrés.|Lavanda, miel de Glumbumble.|Necesita cocción prolongada.|
+|Infusión de hipo|1|Básico|Cura el hipo de forma inmediata.|Agua de manantial, extracto de limón.|Sencillo de hacer con ingredientes comunes.|
+|Poción alisadora|1|Básico|Suaviza el cabello o la piel.|Aceite de coco, lágrimas de unicornio.|Proceso de mezcla simple.|
+|Poción de curación de forúnculos|1|Básico|Cura forúnculos y otras infecciones cutáneas.|Espinas de pez globo, ortiga, díctamo.|Fácil de preparar.|
+|Poción de la memoria|1|Básico|Mejora la memoria temporalmente.|Hojas de menta, ajenjo.|Fácil de preparar.|
+|Poción de la risa|1|Básico|Provoca risa incontrolable.|Polen de risolindo.|Fácil de preparar.|
+|Poción del olvido|1|Básico|Induce amnesia temporal.|Ajenjo, esencia de flores.|Necesita control del tiempo de cocción.|
+|Poción herbicida|1|Básico|Mata o debilita plantas.|Jugo de ortiga.|Fácil de preparar.|
+|Poción limpia-heridas|1|Básico|Desinfecta y cura heridas menores.|Agua purificada, esencia de aloe vera.|Fácil de preparar.|
+|Poción para la tos|1|Básico|Cura la tos severa.|Raíz de regaliz, miel de Glumbumble.|Fácil de preparar.|
+|Poción pimentónica|1|Básico|Cura resfriado común y calienta al destinatario. Como efecto secundario sale vapor de las orejas del bebedor durante varias horas.|Pimienta negra, escencia de ginseng.|Fácil de preparar.|
+|Poción de sueño sin sueños|1|Intermedio|Induce un sueño profundo sin sueños.|Valeriana, ajenjo.|Fácil de preparar.|
+|Poción para arpías|1|Avanzado|Reduce el apetito de carne humana a las arpías.|Hígado de arpía, plumas de grifo.|Requiere ingredientes raros y peligrosos de obtener.|
+
+# Criaturas mágicas
+
+Habilidad para interactuar con criaturas y plantas mágicas.
+Los jugadores pueden domesticar criaturas y/o plantas mágicas, comprender su comportamiento, usarlos para crear soluciones o defensas, etc.
+
+1. Conocimiento: Identificación y clasificación de criaturas y plantas mágicas.
+1. Comunicación e Interpretación: Capacidad de interactuar con criaturas mágicas, relacionado con carisma.
+
+## Tabla de contenido
+
+La tabla de a continuación muestra la clasificación que el ministerio de magia (MM) dio a a todas las criaturas basándose en qué tan peligrosas son.
+
+|Complejidad|Clasificación MM|Descripción|
+|:----|:----|:----|
+|1|X|Aburridas.|
+|1|XX|Inofensivas, pueden ser domesticadas.|
+|2|XXX|Magos competentes pueden salir adelante.|
+|3|XXXX|Peligroso: requiere conocimientos especiales. Magos experimentados pueden manejarlas.|
+|4|-|__Respeto mágico__: Capacidad de diálogo y negociación con criaturas mágicas inteligentes que no tienen en general buenas relaciones con los magos.|
+|5|XXXXX|Con reputación de asesinar magos: imposible de entrenar o domesticar.|
+
+|Criatura|Clasificación MM|Descripción|
+|:----|:----|:----|
+|Horklump|X|Criaturas similares a hongos con púas que salen disparadas, capaces de herir a quien se acerque demasiado. Son rosados y con púas rojas.|
+|Sapo|X|Sapo común (no mágico), que se usa como mascota, conejillo de indias de encantamientos y como ingrediente de numerosas pociones.|
+|Sapo púrpura gigante|X|También conocido como un rana toro, tiene una lengua larga y verde, piel gruesa y oscura y los individuos que los toquen podrían contraer verrugas.|
+|Augurey|XX|Ave que predice la lluvia con su canto, anteriormente se pensaba que predice la muerte.|
+|Babosa carnívora|XX|Criatura mágica muy similar a la babosa común.|
+|Bicornio|XX|Criatura peligrosa parecida a la vaca, y se destacan por tener dos cuernos ondulados y puntiagudos, que son usados como ingredientes para pociones.|
+|Bowtruckle|XX|Criatura pequeña que protege los árboles de los cuales se obtienen varitas mágicas.|
+|Chizpurfle|XX|Pequeños parásitos de medio centímetro de alto que se parecen a los cangrejos y poseen unos colmillos considerables.|
+|Clabbert|XX|Criatura arborícola con un aspecto parecido a un cruce entre un mono y una rana. Posee un diente puntiagudo y un abultamiento en la frente que brilla cuando hay peligro.|
+|Diricawl|XX|Ave mágica con un plumaje colorido y brillante conocida anteriormente por muggles como "dodo".|
+|Ghoul|XX|Criatura humanoide que se encuentra en lugares lúgubres y húmenos. Son relativamente inofensivos y son, a menudo, vistos como mascotas por las familias mágicas.|
+|Grindylow|XX|Demonio acuático, peligroso en el agua, conocido por atacar a los humanos.|
+|Gnomo|XX|Los gnomos o enanitos de jardín, son criaturas mágicas conocida comúnmente por infestar los jardines de las casas de magos.|
+|Gusarajo|XX|Gusano de unas de veinticinco centímetros de longitud, de color marrón, sin dientes y que come vegetación, especialmente lechuga y repollo. Su moco es utilizado como ingrediente de pociones.|
+|Hada|XX|Criaturas humanoides pequeñas y decorativas dotadas de poca inteligencia. Los magos las usan o invocan frecuentemente para que les sirvan de adorno.|
+|Jobberknoll|XX|Ave azul moteado que nunca hace ningún ruido hasta el momento antes de morir.|
+|Mooncalf|XX|Criatura tímida que sólo sale de su madriguera durante la luna llena. Tiene una piel gris pálida y cuatro piernas delgadas que terminan en grandes pies planos. También tiene ojos saltones que están en la cima de su cabeza.|
+|Porlock|XX|Criatura guardián de caballos que vive en el césped. Bien se puede encontrar de anidación en la paja de un establo, o en el medio de la manada que está protegiendo. Los porlocks desconfían de los humanos y se esconden cuando se acercan.|
+|Puffskein|XX|Criatura que se encuentra por todo el mundo y es considerado uno de los animales mas domesticables. De forma esférica y cubierto por un pelaje suave, de color natillas, es una criatura dócil que no se opone a que lo mimen ni a que la gente juegue con él lanzándoselo de unas manos a otras.|
+|Rámora|XX|Ppez plateado que tiene un fuerte poder mágico para anclar los barcos en su lugar.|
+|Serpiente arbórea africana|XX|Serpiente culebrosa, pequeña y venenosa, que es nativa del África subsahariana. Su piel es usada como ingrediente para la fabricación de pociones, como la poción multijugos.|
+
+Otras criaturas mágicas inteligentes que no son consideradas bestias o animales fantásticos están descritas a continuación, con la fortuna que el jugador con __4__ puntos en _criaturas_ cuenta con el __Respeto mágico__ y podrá entablar relaciones con ellos, contar con su confianza (nada común entre los magos y brujas) y con conocimientos de su cultura y constumbres.
+
+|Ser|Descripción|
+|:----|:----|
+|Arpía|Ser come-niños que parece una bruja vieja con muchas verrugas. Tienen sólo magia rudimentaria, similar a la observada en los trolls.|
+|Centauros|Criaturas mágicas de clasificación XXXX por el MM, cuya cabeza, torso y brazos parecen humanos y estan unidos a la parte inferior del cuerpo de un caballo. Sin embargo, son su propia especie individual y, por tanto, no son Híbridos. También tienen una rica historia y son conocidos por tener un talento natural en tiro con arco, magia curativa, adivinación y astronomía. A pesar de poseer "inteligencia humana", fueron clasificados como Bestias por el MM a petición propia, ya que no estaban contentos de tener que compartir el estatus de Ser con arpías y vampiros, conocidas criaturas oscuras.|
+|Duendes|Raza muy inteligente de pequeños humanoides con dedos y pies largos que coexisten con los magos y brujas. Hablan en un idioma conocido como duendigonza, y son buenos orfebres notables por su platería; incluso acuñan monedas como dinero mágico. Debido a sus habilidades con el dinero y las finanzas, controlan la economía mágica en gran medida y administran el banco mágico Gringotts. Tienen su tipo de magia y pueden hacer magia sin varita. Su esperanza de vida supera los 100 años.|
+|Elfos domésticos|También conocidos como elfos,son criaturas mágica inmensamente devotas y leales a la persona designada como su amo. Sirven a magos y brujas y generalmente se encuentran bajo el empleo de viejas familias de magos que residen en establecimientos elaborados, como mansiones, y deben hacer todo lo que sus amos mandan a menos que sean liberados. Un elfo doméstico solo puede ser liberado cuando su amo les entrega ropa. La mayoríano soportan la idea de ser libres. Tienen su propia marca de magia si Su esperanza de vida data de cientos de años, sin superar los 1000 años.|
+|Gente del agua|Criaturas mágicas con inteligencia semi-humana que viven en el fondo del agua. Hay gente del agua por todo el mundo, y varían en apariencia casi tanto como los seres humanos. Sus prácticas y costumbres tienen un halo de misterio equiparable al que rodea a los centauros, aunque aquellos magos que han aprendido sirenio hablan de comunidades sumamente organizadas que varían de tamaño según el hábitat y que, en algunos casos, disponen de viviendas construidas con mucho esmero. También se sabe que domestican criaturas tales como grindylows e hipocampos. Al igual que los centauros, la gente del agua ha rechazado el estatus de seres en favor de la clasificación de bestias, ya que estaban en contra de compartir el estatus con arpías y vampiros.|
+|Gigantes|Homínidos muy grande que potencialmente puede llegar a unos veinte metros de altura, y parecen seres humanos de gran tamaño. Los gigantes no son tan inteligentes como los magos y las brujas, pero tienen su propio lenguaje, cultura y sociedad. Una tribu de gigantes es dirigida por el gigante mayor, conocido como Gurg. Su esperanza de vida supera los 200 años.|
+|Licántropos (hombres lobo) en forma humana|Personas que llevan consigo la enfermedad de la licantropía. Tienen la capacidad de transformarse en un lobo en apariencia y naturaleza, al haber sido mordidas por un hombre lobo en su forma de lobo en el momento de la luna llena. El hombre lobo se transforma bajo la influencia de esta.|
+|Muggles|Comunidad de gente no mágica. Su esperanza de vida no supera los 100 años.|
+|Squibs|Gente no mágica nacida en familias con sangre mágica. Su esperanza de vida no supera los 100 años.|
+|Vampiros|Humanoides mágicos famosos por morder a las personas en el cuello y chuparles la sangre. De apariencia pálida y demacrada,poseen colmillos afilados para perforar las gargantas de sus víctimas. Su esperanza de vida no supera los 200 años.|
+|Veelas|Raza de semi-humanas remanentes de las sirenas. De apariencia de muy jóvenes y bellas mujeres, poseen una danza mágicamente seductora para la mayoría de los hombres. Cuando se enojan, sus rostros se convierten en algo parecido a la cabeza de un ave con picos largos y filosos y con largas plumas que nacen de sus hombros, también pueden lanzar bolas de fuego de sus manos.|
+
+## Plantas mágicas
+
+## Tabla de contenido
+
+La tabla de a continuación muestra las plantas mágicas y los puntos de _criaturas y plantas_ necesarios para su domesticación, uso y cuidado.
+
+|Planta|Complejidad|Descripción|
+|:----|:----|:----|
+|Branquialgas|1|Cuando es ingerida, esta planta causa el crecimiento de branquias y dedos palmeados, y así se hace posible respirar y nadar bajo el agua por aproximadamente una hora, dependiendo de si el usuario está en agua dulce o salada.|
+|Flor voladora|1|Planta que a la vista se asemeja al lazo del diablo, pero es inofensiva.1|
+|Geranio colmilludo|1|Planta de jardín común que se sabe que muerde o ataca si no se cuida. No es carnívora, pero sus  afilados colmillos causan dolos a sus víctimas.|
+
+# Erudición Mística
+
+Es el conocimiento teórico y práctico sobre diversas disciplinas mágicas, llegando a alcanzar poderes místicos de premonición y adivinación.
+
+1. Conocimiento: conocimiento profundo de historia mágica, lectura e interpretación de runas.
+   Relacionado con _inteligencia_, acciones relacionadas con la historia, cultura o runas requerirán de tiradas de de _inteligencia_ (_inteligencia_ + D20).
+1. Interpretación: Capacidad de interpretar señales de magia, visiones a través de distintos objetos e incluso visualizar hechos que aún no han occurido.
+   Relacionado con _potencial mágico_, se requiere una tirada de _potencial mágico_ + D20.
+
+## Tabla de contenido
+
+|Capacidad|Poder místico|Descripción|Requisitos / Tirada|
+|:----|:----|:----|:----|
+|Conocimiento mágico popular|1|Conocimiento básico de historia mágica, cultura mágica popular y runas simples.|Inteligencia media.|
+|Percepción de alteraciones en la magia|2|Capacidad de sentir alteraciones en la magia (por ejemplo, concentración de magia poderosa u oscura en determinadas ubicaciones).|Potencial mágico medio.|
+|Descrifrar vagamente el futuro ajeno|2|Capacidad de mediante la tesomancia, quiromancia o cartomancia, interpretar señales sobre el pasado o el futuro de otras personas.|Potencial mágico medio, puede requerir objetos.|
+|Interpretación astrológica|3|Capacidad de interpretar señales en el cielo nocturno sobre hechos que aun no han pasado.|Potencial mágico medio.|
+|Conocimiento mágico avanzado|3|Profundo conocimiento de historia mágica, cultura mágica internacional y runas avanzadas.|Inteligencia alta.|
+|Anticipación del peligro|3|Capacidad de detectar que existe un peligro mágico inminente.|Potencial mágico alto.|
+|Respeto mágico|4|Capacidad de diálogo y negociación con criaturas mágicas inteligentes que no tienen en general buenas relaciones con los magos.|Potencial mágico altos.|
+|Detección de magia oculta|4|Capacidad de detectar qué peligros o tipos de magia oculta se aproximan.|Potencial mágico alto.|
+|Premonición|5|Capacidad de ver con claridad hechos, lugares o circunstancias que han acontecido en otra línea temporal (pasadas o futuras) mediante la bola de cristal.|Potencial mágico alto, requiere de una bola de cristal.|
+
+__Astrología__: arte de interpretar la orientación de las estrellas para predecir eventos del futuro.
+
+__Tesomancia__: arte de leer las hojas de té para predecir eventos del futuro a otras personas.
+
+__Quiromancia__:  arte de la predicción de eventos del futuro de otras personas a través del estudio de su palma de la mano.
+
+__Cartomancia__: arte de la lectura de cartas (del tarot) para conocer mejor los acontecimientos futuros.
+
+
+El __Respeto mágico__ afecta a la siguiente lista de criaturas mágicas inteligentes que no son consideradas bestias o animales fantásticos.
+El jugador con __4__ puntos en _erudición mística_ cuenta con el  __Respeto mágico__, y podrá entablar relaciones con ellos, contar con su confianza (nada común entre los magos y brujas) y con conocimientos de su cultura y constumbres.
+
+|Ser|Descripción|
+|:----|:----|
+|Arpía|Ser come-niños que parece una bruja vieja con muchas verrugas. Tienen sólo magia rudimentaria, similar a la observada en los trolls.|
+|Centauros|Criaturas mágicas de clasificación XXXX por el MM, cuya cabeza, torso y brazos parecen humanos y estan unidos a la parte inferior del cuerpo de un caballo. Sin embargo, son su propia especie individual y, por tanto, no son Híbridos. También tienen una rica historia y son conocidos por tener un talento natural en tiro con arco, magia curativa, adivinación y astronomía. A pesar de poseer "inteligencia humana", fueron clasificados como Bestias por el MM a petición propia, ya que no estaban contentos de tener que compartir el estatus de Ser con arpías y vampiros, conocidas criaturas oscuras.|
+|Duendes|Raza muy inteligente de pequeños humanoides con dedos y pies largos que coexisten con los magos y brujas. Hablan en un idioma conocido como duendigonza, y son buenos orfebres notables por su platería; incluso acuñan monedas como dinero mágico. Debido a sus habilidades con el dinero y las finanzas, controlan la economía mágica en gran medida y administran el banco mágico Gringotts. Tienen su tipo de magia y pueden hacer magia sin varita. Su esperanza de vida supera los 100 años.|
+|Elfos domésticos|También conocidos como elfos,son criaturas mágica inmensamente devotas y leales a la persona designada como su amo. Sirven a magos y brujas y generalmente se encuentran bajo el empleo de viejas familias de magos que residen en establecimientos elaborados, como mansiones, y deben hacer todo lo que sus amos mandan a menos que sean liberados. Un elfo doméstico solo puede ser liberado cuando su amo les entrega ropa. La mayoríano soportan la idea de ser libres. Tienen su propia marca de magia si Su esperanza de vida data de cientos de años, sin superar los 1000 años.|
+|Gente del agua|Criaturas mágicas con inteligencia semi-humana que viven en el fondo del agua. Hay gente del agua por todo el mundo, y varían en apariencia casi tanto como los seres humanos. Sus prácticas y costumbres tienen un halo de misterio equiparable al que rodea a los centauros, aunque aquellos magos que han aprendido sirenio hablan de comunidades sumamente organizadas que varían de tamaño según el hábitat y que, en algunos casos, disponen de viviendas construidas con mucho esmero. También se sabe que domestican criaturas tales como grindylows e hipocampos. Al igual que los centauros, la gente del agua ha rechazado el estatus de seres en favor de la clasificación de bestias, ya que estaban en contra de compartir el estatus con arpías y vampiros.|
+|Gigantes|Homínidos muy grande que potencialmente puede llegar a unos veinte metros de altura, y parecen seres humanos de gran tamaño. Los gigantes no son tan inteligentes como los magos y las brujas, pero tienen su propio lenguaje, cultura y sociedad. Una tribu de gigantes es dirigida por el gigante mayor, conocido como Gurg. Su esperanza de vida supera los 200 años.|
+|Licántropos (hombres lobo) en forma humana|Personas que llevan consigo la enfermedad de la licantropía. Tienen la capacidad de transformarse en un lobo en apariencia y naturaleza, al haber sido mordidas por un hombre lobo en su forma de lobo en el momento de la luna llena. El hombre lobo se transforma bajo la influencia de esta.|
+|Muggles|Comunidad de gente no mágica. Su esperanza de vida no supera los 100 años.|
+|Squibs|Gente no mágica nacida en familias con sangre mágica. Su esperanza de vida no supera los 100 años.|
+|Vampiros|Humanoides mágicos famosos por morder a las personas en el cuello y chuparles la sangre. De apariencia pálida y demacrada,poseen colmillos afilados para perforar las gargantas de sus víctimas. Su esperanza de vida no supera los 200 años.|
+|Veelas|Raza de semi-humanas remanentes de las sirenas. De apariencia de muy jóvenes y bellas mujeres, poseen una danza mágicamente seductora para la mayoría de los hombres. Cuando se enojan, sus rostros se convierten en algo parecido a la cabeza de un ave con picos largos y filosos y con largas plumas que nacen de sus hombros, también pueden lanzar bolas de fuego de sus manos.|
