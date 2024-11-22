@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quest Logs",
+    "section": "",
+    "text": "La siguiente página es un repositorio con materiales para partidas de D&D del grupo Yatekomo."
+  },
+  {
+    "objectID": "index.html#proyecto",
+    "href": "index.html#proyecto",
+    "title": "Quest Logs",
+    "section": "",
+    "text": "La siguiente página es un repositorio con materiales para partidas de D&D del grupo Yatekomo."
+  },
+  {
+    "objectID": "index.html#referencias",
+    "href": "index.html#referencias",
+    "title": "Quest Logs",
+    "section": "Referencias",
+    "text": "Referencias\n\nGithub repository"
+  },
+  {
+    "objectID": "myw/index.html",
+    "href": "myw/index.html",
+    "title": "Magic & Wizarding",
+    "section": "",
+    "text": "Versión: 0.1.0\nAutor & DM: Power"
+  },
+  {
+    "objectID": "myw/index.html#descripción",
+    "href": "myw/index.html#descripción",
+    "title": "Magic & Wizarding",
+    "section": "Descripción",
+    "text": "Descripción\nEste juego se basa en el mundo mágico de Rowling, pero no se limita a él."
+  },
+  {
     "objectID": "myw/material/manual_completo.html#elaboración-del-personaje",
     "href": "myw/material/manual_completo.html#elaboración-del-personaje",
     "title": "Manual Completo",
@@ -110,40 +145,5 @@
     "title": "Manual Completo",
     "section": "Tabla de contenido",
     "text": "Tabla de contenido\n\n\n\n\n\n\n\n\n\nCapacidad\nPoder místico\nDescripción\nRequisitos / Tirada\n\n\n\n\nConocimiento mágico popular\n1\nConocimiento básico de historia mágica, cultura mágica popular y runas simples.\nInteligencia media.\n\n\nPercepción de alteraciones en la magia\n2\nCapacidad de sentir alteraciones en la magia (por ejemplo, concentración de magia poderosa u oscura en determinadas ubicaciones).\nPotencial mágico medio.\n\n\nDescrifrar vagamente el futuro ajeno\n2\nCapacidad de mediante la tesomancia, quiromancia o cartomancia, interpretar señales sobre el pasado o el futuro de otras personas.\nPotencial mágico medio, puede requerir objetos.\n\n\nInterpretación astrológica\n3\nCapacidad de interpretar señales en el cielo nocturno sobre hechos que aun no han pasado.\nPotencial mágico medio.\n\n\nConocimiento mágico avanzado\n3\nProfundo conocimiento de historia mágica, cultura mágica internacional y runas avanzadas.\nInteligencia alta.\n\n\nAnticipación del peligro\n3\nCapacidad de detectar que existe un peligro mágico inminente.\nPotencial mágico alto.\n\n\nRespeto mágico\n4\nCapacidad de diálogo y negociación con criaturas mágicas inteligentes que no tienen en general buenas relaciones con los magos.\nPotencial mágico altos.\n\n\nDetección de magia oculta\n4\nCapacidad de detectar qué peligros o tipos de magia oculta se aproximan.\nPotencial mágico alto.\n\n\nPremonición\n5\nCapacidad de ver con claridad hechos, lugares o circunstancias que han acontecido en otra línea temporal (pasadas o futuras) mediante la bola de cristal.\nPotencial mágico alto, requiere de una bola de cristal.\n\n\n\nAstrología: arte de interpretar la orientación de las estrellas para predecir eventos del futuro.\nTesomancia: arte de leer las hojas de té para predecir eventos del futuro a otras personas.\nQuiromancia: arte de la predicción de eventos del futuro de otras personas a través del estudio de su palma de la mano.\nCartomancia: arte de la lectura de cartas (del tarot) para conocer mejor los acontecimientos futuros.\nEl Respeto mágico afecta a la siguiente lista de criaturas mágicas inteligentes que no son consideradas bestias o animales fantásticos. El jugador con 4 puntos en erudición mística cuenta con el Respeto mágico, y podrá entablar relaciones con ellos, contar con su confianza (nada común entre los magos y brujas) y con conocimientos de su cultura y constumbres.\n\n\n\n\n\n\n\nSer\nDescripción\n\n\n\n\nArpía\nSer come-niños que parece una bruja vieja con muchas verrugas. Tienen sólo magia rudimentaria, similar a la observada en los trolls.\n\n\nCentauros\nCriaturas mágicas de clasificación XXXX por el MM, cuya cabeza, torso y brazos parecen humanos y estan unidos a la parte inferior del cuerpo de un caballo. Sin embargo, son su propia especie individual y, por tanto, no son Híbridos. También tienen una rica historia y son conocidos por tener un talento natural en tiro con arco, magia curativa, adivinación y astronomía. A pesar de poseer “inteligencia humana”, fueron clasificados como Bestias por el MM a petición propia, ya que no estaban contentos de tener que compartir el estatus de Ser con arpías y vampiros, conocidas criaturas oscuras.\n\n\nDuendes\nRaza muy inteligente de pequeños humanoides con dedos y pies largos que coexisten con los magos y brujas. Hablan en un idioma conocido como duendigonza, y son buenos orfebres notables por su platería; incluso acuñan monedas como dinero mágico. Debido a sus habilidades con el dinero y las finanzas, controlan la economía mágica en gran medida y administran el banco mágico Gringotts. Tienen su tipo de magia y pueden hacer magia sin varita. Su esperanza de vida supera los 100 años.\n\n\nElfos domésticos\nTambién conocidos como elfos,son criaturas mágica inmensamente devotas y leales a la persona designada como su amo. Sirven a magos y brujas y generalmente se encuentran bajo el empleo de viejas familias de magos que residen en establecimientos elaborados, como mansiones, y deben hacer todo lo que sus amos mandan a menos que sean liberados. Un elfo doméstico solo puede ser liberado cuando su amo les entrega ropa. La mayoríano soportan la idea de ser libres. Tienen su propia marca de magia si Su esperanza de vida data de cientos de años, sin superar los 1000 años.\n\n\nGente del agua\nCriaturas mágicas con inteligencia semi-humana que viven en el fondo del agua. Hay gente del agua por todo el mundo, y varían en apariencia casi tanto como los seres humanos. Sus prácticas y costumbres tienen un halo de misterio equiparable al que rodea a los centauros, aunque aquellos magos que han aprendido sirenio hablan de comunidades sumamente organizadas que varían de tamaño según el hábitat y que, en algunos casos, disponen de viviendas construidas con mucho esmero. También se sabe que domestican criaturas tales como grindylows e hipocampos. Al igual que los centauros, la gente del agua ha rechazado el estatus de seres en favor de la clasificación de bestias, ya que estaban en contra de compartir el estatus con arpías y vampiros.\n\n\nGigantes\nHomínidos muy grande que potencialmente puede llegar a unos veinte metros de altura, y parecen seres humanos de gran tamaño. Los gigantes no son tan inteligentes como los magos y las brujas, pero tienen su propio lenguaje, cultura y sociedad. Una tribu de gigantes es dirigida por el gigante mayor, conocido como Gurg. Su esperanza de vida supera los 200 años.\n\n\nLicántropos (hombres lobo) en forma humana\nPersonas que llevan consigo la enfermedad de la licantropía. Tienen la capacidad de transformarse en un lobo en apariencia y naturaleza, al haber sido mordidas por un hombre lobo en su forma de lobo en el momento de la luna llena. El hombre lobo se transforma bajo la influencia de esta.\n\n\nMuggles\nComunidad de gente no mágica. Su esperanza de vida no supera los 100 años.\n\n\nSquibs\nGente no mágica nacida en familias con sangre mágica. Su esperanza de vida no supera los 100 años.\n\n\nVampiros\nHumanoides mágicos famosos por morder a las personas en el cuello y chuparles la sangre. De apariencia pálida y demacrada,poseen colmillos afilados para perforar las gargantas de sus víctimas. Su esperanza de vida no supera los 200 años.\n\n\nVeelas\nRaza de semi-humanas remanentes de las sirenas. De apariencia de muy jóvenes y bellas mujeres, poseen una danza mágicamente seductora para la mayoría de los hombres. Cuando se enojan, sus rostros se convierten en algo parecido a la cabeza de un ave con picos largos y filosos y con largas plumas que nacen de sus hombros, también pueden lanzar bolas de fuego de sus manos."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quest Logs",
-    "section": "",
-    "text": "La siguiente página es un repositorio con materiales para partidas de D&D del grupo Yatekomo."
-  },
-  {
-    "objectID": "index.html#proyecto",
-    "href": "index.html#proyecto",
-    "title": "Quest Logs",
-    "section": "",
-    "text": "La siguiente página es un repositorio con materiales para partidas de D&D del grupo Yatekomo."
-  },
-  {
-    "objectID": "index.html#referencias",
-    "href": "index.html#referencias",
-    "title": "Quest Logs",
-    "section": "Referencias",
-    "text": "Referencias\n\nGithub repository"
-  },
-  {
-    "objectID": "myw/index.html",
-    "href": "myw/index.html",
-    "title": "Magic & Wizarding",
-    "section": "",
-    "text": "Versión: 0.1.0\nAutor & DM: Power"
-  },
-  {
-    "objectID": "myw/index.html#descripción",
-    "href": "myw/index.html#descripción",
-    "title": "Magic & Wizarding",
-    "section": "Descripción",
-    "text": "Descripción\nEste juego se basa en el mundo mágico de Rowling, pero no se limita a él."
   }
 ]
