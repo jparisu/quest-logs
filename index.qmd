@@ -11,3 +11,4 @@ La siguiente página es un repositorio con materiales para partidas de D&D del g
 ## Referencias
 
 -   [Github repository](https://github.com/jparisu/quest-logs)
+-   \[Docs\](<https://jparisu.github.io/quest-logs/myw/>)
