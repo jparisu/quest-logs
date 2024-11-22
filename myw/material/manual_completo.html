@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Manual Completo – Quest Logs</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Quest Logs</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../myw/index.html"> 
+<span class="menu-text">Magic &amp; Wizarding</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#índice" id="toc-índice" class="nav-link active" data-scroll-target="#índice">Índice</a></li>
+  <li><a href="#sistema-de-juego-y-mecánicas" id="toc-sistema-de-juego-y-mecánicas" class="nav-link" data-scroll-target="#sistema-de-juego-y-mecánicas">Sistema de Juego y Mecánicas</a>
+  <ul class="collapse">
+  <li><a href="#elaboración-del-personaje" id="toc-elaboración-del-personaje" class="nav-link" data-scroll-target="#elaboración-del-personaje">Elaboración del Personaje</a>
+  <ul class="collapse">
+  <li><a href="#inventario" id="toc-inventario" class="nav-link" data-scroll-target="#inventario">Inventario</a></li>
+  <li><a href="#estadísticas-base-del-personaje" id="toc-estadísticas-base-del-personaje" class="nav-link" data-scroll-target="#estadísticas-base-del-personaje">Estadísticas base del personaje</a></li>
+  <li><a href="#habilidades" id="toc-habilidades" class="nav-link" data-scroll-target="#habilidades">Habilidades:</a></li>
+  <li><a href="#ramas-de-la-magia" id="toc-ramas-de-la-magia" class="nav-link" data-scroll-target="#ramas-de-la-magia">Ramas de la magia</a></li>
+  <li><a href="#pistas-para-la-personalización" id="toc-pistas-para-la-personalización" class="nav-link" data-scroll-target="#pistas-para-la-personalización">Pistas para la personalización</a></li>
+  </ul></li>
+  <li><a href="#turnos-sistema-de-iniciativa" id="toc-turnos-sistema-de-iniciativa" class="nav-link" data-scroll-target="#turnos-sistema-de-iniciativa">Turnos: Sistema de Iniciativa</a>
+  <ul class="collapse">
+  <li><a href="#escala-de-dificultad-d20" id="toc-escala-de-dificultad-d20" class="nav-link" data-scroll-target="#escala-de-dificultad-d20">Escala de Dificultad (D20)</a></li>
+  </ul></li>
+  <li><a href="#sistema-de-acciones-combate" id="toc-sistema-de-acciones-combate" class="nav-link" data-scroll-target="#sistema-de-acciones-combate">Sistema de Acciones: Combate</a>
+  <ul class="collapse">
+  <li><a href="#ataque-hechizo-ofensivo" id="toc-ataque-hechizo-ofensivo" class="nav-link" data-scroll-target="#ataque-hechizo-ofensivo">Ataque (hechizo ofensivo):</a></li>
+  <li><a href="#daño" id="toc-daño" class="nav-link" data-scroll-target="#daño">Daño:</a></li>
+  <li><a href="#defensa-mágica" id="toc-defensa-mágica" class="nav-link" data-scroll-target="#defensa-mágica">Defensa mágica:</a></li>
+  <li><a href="#reacción-defensiva" id="toc-reacción-defensiva" class="nav-link" data-scroll-target="#reacción-defensiva">Reacción defensiva:</a></li>
+  </ul></li>
+  <li><a href="#sistema-de-habilidades" id="toc-sistema-de-habilidades" class="nav-link" data-scroll-target="#sistema-de-habilidades">Sistema de Habilidades</a></li>
+  </ul></li>
+  <li><a href="#partida" id="toc-partida" class="nav-link" data-scroll-target="#partida">Partida</a>
+  <ul class="collapse">
+  <li><a href="#primeros-pasos" id="toc-primeros-pasos" class="nav-link" data-scroll-target="#primeros-pasos">Primeros pasos</a></li>
+  </ul></li>
+  <li><a href="#anexos" id="toc-anexos" class="nav-link" data-scroll-target="#anexos">Anexos</a></li>
+  <li><a href="#varitas-y-su-significado" id="toc-varitas-y-su-significado" class="nav-link" data-scroll-target="#varitas-y-su-significado">Varitas y su significado</a>
+  <ul class="collapse">
+  <li><a href="#núcleos" id="toc-núcleos" class="nav-link" data-scroll-target="#núcleos">Núcleos</a></li>
+  <li><a href="#maderas" id="toc-maderas" class="nav-link" data-scroll-target="#maderas">Maderas</a></li>
+  <li><a href="#longitud-y-flexibilidad" id="toc-longitud-y-flexibilidad" class="nav-link" data-scroll-target="#longitud-y-flexibilidad">Longitud y flexibilidad</a></li>
+  <li><a href="#otras-características" id="toc-otras-características" class="nav-link" data-scroll-target="#otras-características">Otras características</a></li>
+  </ul></li>
+  <li><a href="#hechizos" id="toc-hechizos" class="nav-link" data-scroll-target="#hechizos">Hechizos</a>
+  <ul class="collapse">
+  <li><a href="#tabla-de-contenido" id="toc-tabla-de-contenido" class="nav-link" data-scroll-target="#tabla-de-contenido">Tabla de contenido</a></li>
+  </ul></li>
+  <li><a href="#hechizos-de-uso-en-combate" id="toc-hechizos-de-uso-en-combate" class="nav-link" data-scroll-target="#hechizos-de-uso-en-combate">Hechizos de uso en combate</a>
+  <ul class="collapse">
+  <li><a href="#tabla-de-contenido-1" id="toc-tabla-de-contenido-1" class="nav-link" data-scroll-target="#tabla-de-contenido-1">Tabla de contenido</a></li>
+  </ul></li>
+  <li><a href="#pociones" id="toc-pociones" class="nav-link" data-scroll-target="#pociones">Pociones</a>
+  <ul class="collapse">
+  <li><a href="#tabla-de-contenido-2" id="toc-tabla-de-contenido-2" class="nav-link" data-scroll-target="#tabla-de-contenido-2">Tabla de contenido</a></li>
+  </ul></li>
+  <li><a href="#criaturas-mágicas" id="toc-criaturas-mágicas" class="nav-link" data-scroll-target="#criaturas-mágicas">Criaturas mágicas</a>
+  <ul class="collapse">
+  <li><a href="#tabla-de-contenido-3" id="toc-tabla-de-contenido-3" class="nav-link" data-scroll-target="#tabla-de-contenido-3">Tabla de contenido</a></li>
+  <li><a href="#plantas-mágicas" id="toc-plantas-mágicas" class="nav-link" data-scroll-target="#plantas-mágicas">Plantas mágicas</a></li>
+  <li><a href="#tabla-de-contenido-4" id="toc-tabla-de-contenido-4" class="nav-link" data-scroll-target="#tabla-de-contenido-4">Tabla de contenido</a></li>
+  </ul></li>
+  <li><a href="#erudición-mística" id="toc-erudición-mística" class="nav-link" data-scroll-target="#erudición-mística">Erudición Mística</a>
+  <ul class="collapse">
+  <li><a href="#tabla-de-contenido-5" id="toc-tabla-de-contenido-5" class="nav-link" data-scroll-target="#tabla-de-contenido-5">Tabla de contenido</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Manual Completo</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="índice" class="level1">
+<h1>Índice</h1>
+</section>
+<section id="sistema-de-juego-y-mecánicas" class="level1">
+<h1>Sistema de Juego y Mecánicas</h1>
+<section id="elaboración-del-personaje" class="level2">
+<h2 class="anchored" data-anchor-id="elaboración-del-personaje">Elaboración del Personaje</h2>
+<p>Los jugadores deberán rellenar la ficha de personaje, donde deberán describir el trasfondo del personaje, su apariencia física, y qué atributos mágicos posee.</p>
+<p>Los personajes cuentan con <strong>45</strong> puntos de vida.</p>
+<p>El personaje cuenta con una cierta cantidad de dinero que lleva encima, pudiendo ser de 0 a 100 galeones. Se deberá tener en cuenta el transfondo del personaje para asignar esta cantidad al inicio de la aventura, y validada por el DM.</p>
+<section id="inventario" class="level3">
+<h3 class="anchored" data-anchor-id="inventario">Inventario</h3>
+<p>El inventario de un personaje define en cierta medida la personalidad del personaje. Cada personaje debe llevar una <strong>varita</strong>, y puede llevar un objeto mágico único, que ocupará un espacio de su inventario y que podrán usar en situaciones de emergencia.</p>
+<p>Su equipaje a lo largo de la partida puede constar de otros objetos comunes como <a href="#pociones">pociones</a>, recuerdos familiares, articulos de broma, kits de elaboración de pociones… hasta un máximo de <strong>4</strong> objetos en su inventario.</p>
+<p>Algunos ejemplos de objetos mágicos únicos son escobas voladoras u otros objetos encantados como espejos comunicadores, pensaderos o brújulas encantadas. Se reconocen dentro de este grupo de objetos mágicos únicos aquellas mascotas mágicas como lechuzas, jobberknolls o kneazles, que puedes ayudar al personaje con mensajes y/o correos. También se incluyen otras critaturas como escarbatos, crups, serpientes (si hablas pársel…) para que te acompañen a lo largo de la aventura. A diferencia del resto de objetos mágicos comunes, el jugador no podrá deshechar ni deshacerse de su objeto mágico único a voluntad. A lo largo de la partida se podrán adquirir nuevas pociones, kits u otros objetos comunes. Para dudas o sugerencias, consultar con el DM.</p>
+<p>Si el jugador decide empezar, por ejemplo, con una criatura mágica de compañía, una poción y un Kit de pociones básico, contará con un espacio libre en el inventario a lo largo de la partida.</p>
+<p><em>Nota: si se desea contar con alguna poción desde el inicio de la partida, se podrá optar únicamente a pociones con complejidad acorde al conocimiento de <a href="#pociones">pociones</a> del personaje.</em></p>
+</section>
+<section id="estadísticas-base-del-personaje" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-base-del-personaje">Estadísticas base del personaje</h3>
+<p>Cada personaje está definido por una serie de habilidades, y por un conocimiento en distintas áreas de la magia:</p>
+<ol type="1">
+<li><strong><a href="#pociones">Pociones</a></strong>: Crear pociones para curar, mejorar características o resolver problemas.</li>
+<li><strong><a href="#criaturas-mágicas-y-herbología">Criaturas mágicas</a></strong>: Interactuar con criaturas y plantas, además de domesticarlas o entenderlas.</li>
+<li><strong><a href="#encantamientos">Encantamientos</a></strong>: Realizar magia dentro y fuera de combate.</li>
+<li><strong><a href="#erudición-mística">Erudición mística</a></strong>: Conocimiento profundo de la magia. Tener visiones o interpretar señales.</li>
+</ol>
+<p>Cada jugador deberá asginar <strong>15</strong> puntos a repartir entre las distintas habilidades, y <strong>10</strong> entre las ramas de la magia, con las siquientes restricciones:</p>
+<ul>
+<li>Cada habilidad y rama de la magia debe de tener al menos <strong>1</strong> punto asignado.</li>
+<li><strong>5</strong> puntos es el máximo asignable para cualquier habilidad y rama de la magia.</li>
+</ul>
+</section>
+<section id="habilidades" class="level3">
+<h3 class="anchored" data-anchor-id="habilidades">Habilidades:</h3>
+<ul>
+<li><strong>Potencial Mágico</strong>: Capacidad innata de canalizar la magia.</li>
+<li><strong>Control de Varita</strong>: Afecta la precisión y potencia de los hechizos.</li>
+<li><strong>Resistencia Mágica</strong>: Defensa natural contra ataques mágicos.</li>
+<li><strong>Velocidad</strong>: Cantidad de movimiento por turno e iniciativa. Por defecto es posible moverse 1 casilla por turno. Si esta habilidad tiene <strong>3</strong> (ó 4) puntos, podrá moverse también en diagonal. Además, si esta habilidad tiene <strong>5</strong> puntos, podrá moverse 2 casillas <strong>(el segundo movimiento NO será en diagonal)</strong>.</li>
+<li><strong>Destreza</strong>: Para acciones como preparar pociones, abrir cerraduras, manejar objetos o pasar desapercibido.</li>
+<li><strong>Carisma</strong>: Persuasión e interacciones sociales o con otras criaturas mágicas.</li>
+<li><strong>Inteligencia</strong>: Conocimiento y aplicación del mismo sobre cultura mágica y no mágica.</li>
+</ul>
+</section>
+<section id="ramas-de-la-magia" class="level3">
+<h3 class="anchored" data-anchor-id="ramas-de-la-magia">Ramas de la magia</h3>
+<p><strong>Pociones</strong>:</p>
+<p>Habilidad para preparar pociones mágicas utilizando ingredientes variados. Esto incluye pociones curativas, transformadoras, de mejora de habilidades, o de efectos adversos.</p>
+<ol type="1">
+<li>Habilidad en la elaboración: Capacidad para seguir la complejidad de los procesos y técnicas de la elaboración de pociones sin errores.</li>
+<li>Kit de Pociones: Cantidad de utensilios, materiales e ingredientes necesarios para la elaboración.</li>
+</ol>
+<p>Se requiere una cierta cantidad de puntos de habilidad el la elaboración para acceder a pociones de mayor complejidad. Además, se precisa de Kits de elaboración de pociones en función de los procesos de elaboración y de los ingredientes necesarios.</p>
+<p>La calidad de la poción elaborada se evaluará con una tirada de <em>destreza</em>: D20 + <em>destreza</em> del personaje.</p>
+<p>Para más información, consultar la sección de pociones.</p>
+<p><strong>Criaturas Mágicas y Herbología</strong>:</p>
+<p>Habilidad para interactuar con criaturas mágicas y plantas mágicas. Los jugadores pueden domesticar criaturas y/o plantas mágicas, comprender su comportamiento, usarlos para crear soluciones o defensas, etc.</p>
+<ol type="1">
+<li>Conocimiento: Identificación y clasificación de criaturas y plantas mágicas.</li>
+<li>Comunicación e Interpretación: Capacidad de interactuar con criaturas mágicas, relacionado con carisma.</li>
+</ol>
+<p><strong>Encantamientos</strong>:</p>
+<p>Habilidad para realizar magia combativa y no combativa, con la intención de encantar objetos o generar efectos mágicos útiles. Esta habilidad también incluye defensas mágicas y diversas maldiciones.</p>
+<ol type="1">
+<li>Conocimiento: capacidad para efectuar una serie de hechizos en diversas situaciones.</li>
+<li>Poder de combate: uso de hechizos conocidos en combate, relacionado con <em>control de varita</em>.</li>
+</ol>
+<p>Para más información, consultar la sección de hechizos.</p>
+<p><strong>Erudición Mística</strong>:</p>
+<p>Es el conocimiento teórico y práctico sobre diversas disciplinas mágicas, llegando a alcanzar poderes místicos de premonición y adivinación.</p>
+<ol type="1">
+<li>Conocimiento: conocimiento profundo de historia mágica, lectura e interpretación de runas. Relacionado con <em>inteligencia</em>, acciones relacionadas con la historia, cultura o runas requerirán de tiradas de de <em>inteligencia</em> (<em>inteligencia</em> + D20).</li>
+<li>Interpretación: Capacidad de interpretar señales de magia, visiones a través de distintos objetos e incluso visualizar hechos que aún no han occurido. Relacionado con <em>potencial mágico</em>, se requiere una tirada de <em>potencial mágico</em> + D20.</li>
+</ol>
+</section>
+<section id="pistas-para-la-personalización" class="level3">
+<h3 class="anchored" data-anchor-id="pistas-para-la-personalización">Pistas para la personalización</h3>
+<section id="profundidad-del-personaje" class="level4">
+<h4 class="anchored" data-anchor-id="profundidad-del-personaje">Profundidad del personaje</h4>
+<p>Es recomendable tener una idea de qué personaje queremos interpretar, darle un trasfondo sobre dónde viene, qué valores tiene, qué cosas le han pasado para que tenga esa personalidad, etc… La guía de selección de <strong><a href="#varitas-y-su-significado">varitas</a></strong> tal vez sea de gran ayuda en estos primeros pasos.</p>
+<p>Podemos empezar con una descripción física del personaje, su pureza de sangre, los rasgos clave de su personalidad y sus defectos. A continuación, desarrollar sus ideales y sus objetivos personales y como mago/bruja.</p>
+<p>Con toda esa información, será mucho más fácil determinar a qué casa de Hogwarts perteneció, a qué se dedica, cual es su historia desde que salió de Hogwarts, que cualidades especiales tiene, etc.</p>
+</section>
+<section id="equilibrio-del-personaje" class="level4">
+<h4 class="anchored" data-anchor-id="equilibrio-del-personaje">Equilibrio del personaje</h4>
+<p>Con el personaje más o menos encauzado, es hora para la repartición de puntos en sus características. Se puede optar por un personaje equilibrado, otorgando equitativamente los puntos a repartir entre las distintas opciones posibles (3-3-2-2 para las ramas de la magia y 3-2-2-2-2-2-2 para sus habilidades), o bien especializarlo en ciertos ámbitos. A continuación se ven descritas algunas estrategias en función de posibles perfiles de personajes a desarrollar: 1. Experto en duelos: con altas puntuaciones (4 ó 5) en la rama de encantamientos, debería acompañar esta asignación con mejorar la habilidad de <em>control de varita</em> de manera equivalente. La <em>resistencia mágica</em>, <em>velocidad</em>, y, en menor parte, <em>destreza</em>, son otras habilidades a tener en cuenta. 1. Experto en encantamientos: igualmente con alta puntuación en encantamientos, puede optar en combate tanto por un rol agresivo como un rol de apoyo para alterar el entorno a su favor o especializarse en la defensa del grupo. Rol ideal para el uso de complicados hechizos fuera de combate, y dedicar el resto de puntos a otras ramas de la magia. En cuanto a habilidades, su <em>destreza</em>, <em>resistencia mágica</em> y <em>carisma</em> serían a tener más en cuenta en la repartición. 1. Experto en pociones: altas puntuaciones para la rama de pociones, puede tener peso también en situaciones de combate pero sobre todo fuera de él. Deberá contar <em>destreza</em> para las elaboraciones, espacios en el inventario para su almacenamiento y dinero suficiente para poder costear su elaboración. Se recomendaría mejorar otros campos como <em>inteligencia</em> o <em>resistencia mágica</em>. 1. Experto en criaturas: alta puntuación en criaturas y <em>carisma</em> para entenderla y poder sacar partido de ellas. En casos de situaciones graves o de peligro causadas por criaturas muy peligrosas, este personaje sabría cómo reaccionar y salir del paso o incluso aprovecharlas a su favor. En ocasiones de combate, el uso de criaturas domesticadas o plantas mágicas puede ser un elemento disuasorio, o un arma muy poderosa. 1. Experto en adivinación: alta puntuación en <em>erudición mágica</em>, para desbloquear habilidades de percepción de peligros inminentes, magia oscura, interpretar señales del futuro de otros jugadores o incluso el poder de tener premoniciones y adivinar el futuro. Sería aconsejable mejorar también para ello el <em>potencial mágico</em> y la <em>inteligencia</em> del personaje. Este personaje además tendría la capacidad de establecer buena comunicación con otros seres mágicos que son reacios a la interacción con magos y brujas.</p>
+<p>Con todo ello, de podrá definir su predisposición a la hora de resolver conflictos (basada en combates, mediar o dialogar, engañar, escapar…), su estilo de combate (ofensivo, defensivo, creador de oportunidades, alterador del entorno, escapista…), u otras facultades clave a lo largo de la partida.</p>
+</section>
+</section>
+</section>
+<section id="turnos-sistema-de-iniciativa" class="level2">
+<h2 class="anchored" data-anchor-id="turnos-sistema-de-iniciativa">Turnos: Sistema de Iniciativa</h2>
+<p>El sistema de turnos está diseñado para que los jugadores puedan actuar de forma organizada, sobre todo en combate o situaciones de tensión. Para determinar el orden, el sistema de iniciativa está basada en tirada de dados.</p>
+<section id="escala-de-dificultad-d20" class="level3">
+<h3 class="anchored" data-anchor-id="escala-de-dificultad-d20">Escala de Dificultad (D20)</h3>
+<ol type="1">
+<li><p>Tirada <strong>trivial</strong> (muy fácil): <strong>4</strong> o más (85% de éxito)</p>
+<p>La mayor parte de las veces el personaje debería tener éxito. Si sumamos modificadores (como <em>destreza</em> o <em>control de varita</em>), será prácticamente un éxito automático.</p></li>
+<li><p>Tirada <strong>fácil</strong>: <strong>7</strong> o más (70% de éxito)</p>
+<p>Algo que no presenta mucho desafío, pero aún con una pequeña posibilidad de fallo. Con modificadores, los personajes competentes probablemente tengan éxito sin mucho problema.</p></li>
+<li><p>Tirada <strong>moderada</strong>: <strong>10</strong> o más (55% de éxito)</p>
+<p>Esto representa el equilibrio: la mitad del tiempo podría fallar o tener éxito, dependiendo de las habilidades del personaje. Con modificadores adecuados, los personajes entrenados tendrán más éxito.</p></li>
+<li><p>Tirada <strong>difícil</strong>: <strong>15</strong> o más (30% de éxito)</p>
+<p>Aquí la dificultad es evidente. Los personajes con habilidades especializadas tendrán mejores probabilidades gracias a sus modificadores, pero el desafío aún es significativo.</p></li>
+<li><p>Tirada <strong>extrema</strong> (muy difícil): <strong>19</strong> o más (10% de éxito)</p>
+<p>Solo los personajes muy hábiles o con ventajas (como hechizos o equipo especial) podrán superar este nivel de dificultad de forma confiable.</p></li>
+</ol>
+<p><strong>Éxito Crítico</strong>: 20 natural (éxito sobresaliente / crítico, nueva tirada D20).</p>
+<p><strong>Fracaso Crítico</strong>: 1 natural (fracaso grave), a interpretación del DM.</p>
+</section>
+</section>
+<section id="sistema-de-acciones-combate" class="level2">
+<h2 class="anchored" data-anchor-id="sistema-de-acciones-combate">Sistema de Acciones: Combate</h2>
+<p>En el mundo mágico, el combate es principalmente de hechizos, así que usaremos un sistema basado en tiradas de dados para determinar el éxito de un hechizo. Al inicio de un combate, todos los jugadores y enemigos tiran un dado de 20 caras (D20). Se suma el resultado de la tirada a la habilidad de <em>velocidad</em>. El personaje con el número más alto actúa primero, y así sucesivamente. Si hay empates, puedes usar una segunda tirada para desempatar. Para que el combate sea fluido pero estratégico, se efecturarán hasta una de las siguientes acciones por turno:</p>
+<ol type="1">
+<li>Acción de movimiento: Cada jugador tiene un número de casillas o espacios que puede moverse en su turno. Esto depende de su estadística de <em>velocidad</em>: Por defecto es posible moverse 1 casilla por turno. Si el personaje tiene <strong>3</strong> (ó 4) puntos de <em>velocidad</em>, podrá moverse también en diagonal. Además, si esta habilidad tiene <strong>5</strong> puntos, podrá moverse 2 casillas <strong>(el segundo movimiento NO será en diagonal)</strong>.</li>
+<li>Acción de ataque o hechizo: Pueden lanzar un hechizo o atacar a un oponente. Esto se resolverá con tiradas de dados (detalladas en la sección de <a href="#ataque-hechizo-ofensivo">ataque</a>).</li>
+<li>Acción de interacción: Pueden interactuar con un objeto del escenario o usar una poción.</li>
+<li>Acción de defensa: Uso de hechizo de protección para aumentar su <em>resistencia mágica</em> hasta su próximo turno.</li>
+<li>Acción de concentración: reserva su turno para contar con una tirada D6 adicional a todas las tiradas de D20 de su próximo turno.</li>
+</ol>
+<p>Ejemplo de Flujo de Combate:</p>
+<ul>
+<li>El jugador A lanza un hechizo <em>Expelliarmus</em> al enemigo B.</li>
+<li>Lanza un D20, suma su <em>control de varita</em> (<em>CDV</em>) (por ejemplo, 3), y obtiene 15 total.</li>
+<li>El enemigo B tiene una <em>resistencia mágica</em> de 12, así que el ataque impacta.</li>
+<li>Se determina el daño del hechizo (2 de base, + 3 de <em>CDV</em> = 5). En elemigo B recibiría 5 puntos de daño.</li>
+<li>Además, como el jugador A ha obtenido 15 en la tirada, superior al rango de desarme de <em>Expelliarmus</em>, desarma al enemigo B.</li>
+<li>El enemigo B en su turno decide moverse para ponerse a cubierto de futuros ataques.</li>
+</ul>
+<section id="ataque-hechizo-ofensivo" class="level3">
+<h3 class="anchored" data-anchor-id="ataque-hechizo-ofensivo">Ataque (hechizo ofensivo):</h3>
+<p>El jugador anuncia el hechizo que va a lanzar (puede ser un hechizo básico como Expelliarmus, Confundo, etc.) y su objetivo. Lanza un D20 y suma su estadística de <em>control de varita</em>. El enemigo puede optar usar la <strong><a href="#reacción-defensiva">Reacción defensiva</a></strong>, pero debe anunciarlo antes de el jugador efectue la tirada. Por ello el jugador debe esperar la confirmación del enemigo. Si el número supera la defensa del enemigo (un número basado en la estadística de <em>resistencia mágica</em>), el hechizo acierta. Si no, el hechizo falla o es esquivado. Algunos hechizos requiren de mayor precisión, de forma que para que acierten deberán superar umbrales mayores que el de la defensa del enemigo. Ese umbral varía por hechizo, y cuando más poderoso es, mayor es el umbral de precisión.</p>
+</section>
+<section id="daño" class="level3">
+<h3 class="anchored" data-anchor-id="daño">Daño:</h3>
+<p>Si el hechizo acierta, el daño y/o efectos adversos se aplicarían en el enemigo en función del hechizo lanzado. En general, se aplicará el daño base del hechizo, sumado al <em>control de varita</em> del atacate. Algunos hechizos pueden tener daño adicional, efectuando una tirada adicional del dado que corresponda por hechizo:</p>
+<ol type="1">
+<li>El daño de impacto se aplica una única vez.</li>
+<li>El daño de precisión se aplica una única vez, pero se ve afectado por la acción de concentración (+ D6).</li>
+<li>El daño pasivo se aplica a un objetivo para cambiar su estado a “Susceptible”. A partir de entonces, y hasta que no se recupere, cada vez que reciba cualquier daño de cualquier fuente, se deberá aplicar una tirada adicional de daño pasivo.</li>
+</ol>
+<p>Consulta la tabla de hechizos en combate para más información.</p>
+</section>
+<section id="defensa-mágica" class="level3">
+<h3 class="anchored" data-anchor-id="defensa-mágica">Defensa mágica:</h3>
+<p>Los jugadores pueden defenderse usando hechizos defensivos (como Protego) que también requieren tirada de D20. Este valor se sumará a la defensa mágica del jugador. Cuando el daño sobre el jugador se aplicará en orden: denfensa mágica, <em>resistencia mágica</em> y vida. Tras aplicar el daño, la <em>resistencia mágica</em> del jugador se restablecerá, pero su defensa mágica y/o vida se verán reducidas. Si el jugador pierde todos los puntos de vida, fallecerá.</p>
+<p>Ejemplo de Defensa mágica:</p>
+<ul>
+<li>El jugador A recibe una defensa mágica de 10 puntos, una <em>resistencia mágica</em> de, por ejemplo, 3 puntos, y 20 puntos de vida.</li>
+<li>El enemigo B tras acertar un ataque, causaría 6 puntos de daño totales al jugador A.</li>
+<li>El jugador A pierde 6 puntos de la defensa mágica. Al jugador A le quedan 4 puntos de defensa mágica, 3 puntos de <em>resistencia mágica</em> y 20 puntos de vida.</li>
+<li>El enemigo C tras acertar un ataque, causaría 9 puntos de daño totales al jugador A.</li>
+<li>El jugador A pierde su defensa mágica, y 2 puntos de vida. Al jugador A le quedan 0 puntos de defensa mágica, 3 puntos de <em>resistencia mágica</em> y 18 puntos de vida.</li>
+</ul>
+<p>En caso de combate físico (en caso de criaturas mágicas o situaciones sin magia), funcionará de manera similar: El jugador o criatura realiza un ataque físico y lanza un D20. Si supera la defensa (mágica) del oponente, el ataque acierta y se aplica daño.</p>
+</section>
+<section id="reacción-defensiva" class="level3">
+<h3 class="anchored" data-anchor-id="reacción-defensiva">Reacción defensiva:</h3>
+<p>Un jugador puede usar la reacción defensiva al ser notificado como receptor de un ataque. Esta reacción debe ser anunciada antes de que el enemigo efectúe la tirada D20 + <em>CDV</em>. De no ser así no tendrá efecto.</p>
+<p>Este mecanismo sacrifica el próximo turno del jugador, con el fin de defenderse ante una situación crítica. Además, si la tirada no tiene éxito, no solo recibirá el daño sino que además perderá su próximo turno. El jugador puede decidir entre:</p>
+<ol type="1">
+<li>Usar hechizos de protección. No es eficaz contra ataques letales (<em>Avada Kedavra</em>).</li>
+<li>Esquivar el ataque. Requiere una tirada de Agilidad (<em>velocidad</em> + D20) superior a la tirada <em>CDV</em> + D20 del enemigo.</li>
+</ol>
+</section>
+</section>
+<section id="sistema-de-habilidades" class="level2">
+<h2 class="anchored" data-anchor-id="sistema-de-habilidades">Sistema de Habilidades</h2>
+<p>Las habilidades fuera de combate son esenciales (investigación, resolver acertijos, interacción con NPCs, etc.). Estas se gestionam de forma similar al combate, con tiradas de dados basadas en las estadísticas del personaje.</p>
+<p>Cuando un jugador quiere realizar una acción no combativa (por ejemplo, examinar el entorno), tira un D20. Se suma la estadística relevante (por ejemplo, <em>destreza</em>) y se compara con una dificultad establecida por el DM (por ejemplo, darse cuenta de que hay un objeto mágico en el suelo entre la hojarasca necesita una tirada de dificultad moderada). Esto hace que las habilidades de cada personaje sean importantes y se puedan personalizar para que cada jugador tenga algo en lo que especializarse.</p>
+</section>
+</section>
+<section id="partida" class="level1">
+<h1>Partida</h1>
+<p><em>Nota: esta sección estará en constante evolución durante el transcurso de la partida para dejar constancia del desarrollo de la misma, los hitos superados y el hilo argumental de la partida.</em></p>
+<section id="primeros-pasos" class="level2">
+<h2 class="anchored" data-anchor-id="primeros-pasos">Primeros pasos</h2>
+<p>La partida se desarrolla en el mundo mágico de J.K. Rowling, respetando los hechos hasta ahora conocidos de todas las <strong>novelas</strong> y otras fuentes <strong>canon</strong>. Más concretamente, se desarrolla en la actualidad, finales del año 2024. Esto quiere decir que los hechos ocurridos, por ejemplo, en los libros de <em>Harry Potter</em> (que tuvieron lugar entre 1991 y 1997) forman parte del posible pasado de los personajes.</p>
+<p>Para el desarrollo de cada personaje, se recomienda seguir la dinámica de que el grupo de jugadores son <strong>amigos</strong> y <strong>ex-compañeros</strong> de clase de Hogwarts, habiendo estudiado juntos y pudiendo tener anécdotas o historias en común entre personajes (<em>a elaborar y discutir en la previa elaboración de la partida, o incluso durante la misma</em>). Cada personaje habrá seguido un rumbo en la comunidad mágica, pudiendo tener un trabajo mágico, familia, etc.</p>
+</section>
+</section>
+<section id="anexos" class="level1">
+<h1>Anexos</h1>
+</section>
+<section id="varitas-y-su-significado" class="level1">
+<h1>Varitas y su significado</h1>
+<p>La varita es la que escoge al mago. De tal forma, la personanildad y características mágicas del personaje definen, en gran medida, qué varita le escogería.</p>
+<p><em>Las descripciones no limitan las acciones de los jugadores, sino que dan profundidad a su personaje.</em></p>
+<section id="núcleos" class="level2">
+<h2 class="anchored" data-anchor-id="núcleos">Núcleos</h2>
+<p>Aunque existen numerosos núcleos para varitas mágicas, los aqui presentes son los considerados más poderosos en la magia europea.</p>
+<ol type="1">
+<li><strong>Fibra de corazón de dragón</strong>: proporciona una magia agresiva, poderosa y llamativa. Favorece el aprendizaje, y la magia oscura, pero no tiene mucha fidelidad hacia su maestro.</li>
+<li><strong>Pelo de unicornio</strong>: proporciona una magia más orientada a la templanza, la defensa y protección. Incapaz de dañar de gravedad, pero incrementa sus capacidades con el paso del tiempo por la alta fidelidad hacia su maestro.</li>
+<li><strong>Pluma de fénix</strong>: proporciona una magia ágil, atrevida y potente. En cambio, require un largo proceso de aprendizaje y dominación para explotar su potencial, y no todos los portadores la alcanzan pues es caprichosa y exigente.</li>
+<li><strong>Pelo de Veela</strong>: proporciona una magia caótica, temperamental y explosiva. Canaliza un gran potencial mágico de forma inestable, pero es certera y capaz de conjurar todo tipo de hechicerías. Carece de fidelidad, por lo que Ollivander no las fabrica personalmente.</li>
+</ol>
+</section>
+<section id="maderas" class="level2">
+<h2 class="anchored" data-anchor-id="maderas">Maderas</h2>
+<p>Cada madera revela distintas características de la magia y la personaliad del jugador:</p>
+<ol type="1">
+<li><strong>Abeto</strong>: fuerza de voluntad, mente fuerte y con propósitos. Ideal para la concentración y para los conjuros transformadores.</li>
+<li><strong>Acacia</strong>: material hecho a medida para aquellos magos y brujas con un don natural para la magia. Canalizan profundamente la fidelidad de la varita hacia el maestro.</li>
+<li><strong>Acebo</strong>: carácter impetuoso, pero concentra el poder en superar la ira y el hastío. Ideal para magos y brujas que buscan un equilibrio espiritual.</li>
+<li><strong>Álamo</strong>: muy coomún entre las esferas políticas, debido a su consistencia, determinación y poder moral.</li>
+<li><strong>Alerce</strong>: possee un talento oculto e innato, pero con poca confianza o valor hasta que no es revelado.</li>
+<li><strong>Aliso</strong>: carácter afable, considerado y empático, ideal para hechizos de sanación.</li>
+<li><strong>Arce</strong>: destaca por su ambición y ganas de aventura. Compañero ideal para viajeros y exploradores.</li>
+<li><strong>Avellano</strong>: proporciona un autocontrol emocional, serenidad y firmeza necesarias a quien lo necesita.</li>
+<li><strong>Caoba</strong>: proporciona fuerza y seguridad, ideal para hechizos defensivos.</li>
+<li><strong>Carpe</strong>: aguarda talento, honor y una gran fidelidad hacia su maestro.</li>
+<li><strong>Castaño</strong>: ideal para el trabajo de campo con plantas, domadora de bestias y para escobas voladoras.</li>
+<li><strong>Cedro</strong>: madera de gran mago o bruja, con carácter pespicaz, astuto y que pasa inadvertido.</li>
+<li><strong>Cerezo</strong>: canaliza y potencia la magia poderosa, pero requiere de fuerza de voluntad y autocontrol.</li>
+<li><strong>Ciprés</strong>: carácter audaz y leal. Su maestro deberá ser una persona valiente, abnegada y dispuesta a sacrificarse por aquellos que le importan.</li>
+<li><strong>Ébano</strong>: poderosa en combate, realza los valores y creencias propios, y promueve el creen en tus instintos. Proporciona cierta predisposición a los hechizos de transformación.</li>
+<li><strong>Endrino</strong>: madera de guerrero, pues necesita sobrepasar un peligro para unirse a su maestro por siempre. Muy poderosa en combate cuando se alcanza todo su potencial.</li>
+<li><strong>Espino</strong>: potencia extremos de la magia como son la sanación y las maldiciones. Canaliza el gran talento de su maestro, pese a sus recurrentes confuciones y conflictos interiores sobre lo bueno y lo malo.</li>
+<li><strong>Fresno</strong>: carácter obstinado y valiente. Muy fiel, para magos y brujas nobles, sin una pizca de grosería ni arrogancia.</li>
+<li><strong>Haya</strong>: difícil de domar si no se cuenta con conocimientos, experiencia y sabiduría. Muy poderosa en la magia cuando se alcanza dicho umbral.</li>
+<li><strong>Laurel</strong>: solo un corazón puro y con grandes ambiciones podrá aprovechar todo el gran poder que aguarda este material.</li>
+<li><strong>Manzano</strong>: carácter reservado, fuertes ideales y un gran poder.</li>
+<li><strong>Nogal</strong>: se mueve por instintos, con un carácter versátil, innovador y de gran adaptabilidad.</li>
+<li><strong>Olmo</strong>: solo se puede domar con una limpieza de sangre de generaciones. Produce una magia elegante, avanzada y con una destreza exquisita.</li>
+<li><strong>Peral</strong>: muy pobre a la hora de emplear magia oscura, este material es popular y respetado por los fabricantes. Carácter sensato, generoso y resistente contra adversidades.</li>
+<li><strong>Picea</strong>: carácter audaz y con sentido del humor, y con la firmeza necesaria para no dudar en situaciones de crisis.</li>
+<li><strong>Pino</strong>: material muy longevo con carácter independiente, solitario y misterioso. Muy poderosa y gran canalizadora de magia no verbal.</li>
+<li><strong>Roble</strong>: caracter leal, fuerte, caliente y de gran coraje. Muy poderosa en la magia natural, con un gran sentido de la intuición.</li>
+<li><strong>Sauce</strong>: gran canalizadora de magia curativa y no verbal. Produce una gran seguridad a su maestro.</li>
+<li><strong>Secuoya</strong>: carácter astuto, hábil y con fortuna en las acciones que desempeña.</li>
+<li><strong>Serbal</strong>: portadora de gran poder para los encantamientos defensivos. Ideal para duelos por su potencia, tan solo domada por maestros de corazón e intenciones puras.</li>
+<li><strong>Tejo</strong>: carácter inusual y extravagante, con gran poder de canalización de la magia en maldiciones y hechizos de daño. Ideal para duelistas habilidosos.</li>
+<li><strong>Vid</strong>: ideal para maestros leales y con grandes propósitos y visiones profundas.</li>
+</ol>
+</section>
+<section id="longitud-y-flexibilidad" class="level2">
+<h2 class="anchored" data-anchor-id="longitud-y-flexibilidad">Longitud y flexibilidad</h2>
+<p>Las varitas más largas tienden a ser atraídas a personalidades más grandes, y las de un estilo de magia más espacioso y dramático. Aquellas varitas anormalmente cortas generalmente seleccionan aquellos magos en cuyo carácter le falta algún elemento notorio. Las varitas más nítidas (dinámicas) favorecen el lanzamiento de hechizos más elegantes y refinados. Sin embargo, ningún aspecto de la composición de la varita debe considerarse aisladamente de todos los demás, y el tipo de madera, el núcleo y la flexibilidad pueden contrarrestar o mejorar los atributos de la longitud de la varita.</p>
+<p>La mayoría de las varitas estarán en el rango de entre 22 y 35 centímetros. Si bien existen varitas extremadamente cortas (20 centímetros) y varas muy largas (más de 38 centímetros), estas son excepcionalmente raras.</p>
+<p>La flexibilidad o rigidez de la varita denota el grado de adaptabilidad y disposición a cambiar de mago o bruja cuando su maestro original le fue arrebatado, aunque, nuevamente, este factor no debe considerarse por separado de la madera, el núcleo y la longitud de la varita, ni la experiencia de vida del propietario y estilo de magia, todo lo cual se combinará para hacer que la varita en cuestión sea única.</p>
+<p>Las varitas pueden adquirir nuevos maestros. Cuando el maestro o maestra de una varita está desarmado, aturdido o muerto, la varita puede aceptar al atacante del viejo maestro como su nuevo maestro. La mayoría de las varitas están adheridas a sus maestros y no descontinuarán fácilmente su lealtad con el maestro anterior. De hecho, parece poco probable que se rompa el vínculo original; si lo fuera, entonces una bruja o mago derrotado le sería más útil adquirir una varita nueva en lugar de seguir usando la original porque ya no le rendiría el máximo rendimiento para ellos.</p>
+</section>
+<section id="otras-características" class="level2">
+<h2 class="anchored" data-anchor-id="otras-características">Otras características</h2>
+<p>Los jugagdores podrán definir y adornar las varitas con emblemas, mangos, detalles esculpidos, etc. Ello aportará a la varita y a su portador más carácter y mejora la profundidad del personaje.</p>
+</section>
+</section>
+<section id="hechizos" class="level1">
+<h1>Hechizos</h1>
+<p>El uso de hechizos requiere una serie de habilidades. La lista de a continuación muestra los hechizos que pueden ser usados en función de su complejidad. Para su uso se require de:</p>
+<ul>
+<li><strong>Conocimiento de hechizos</strong>: puntos de habilidad mágica en la rama de encantamientos, caracterizados en la tabla como <em>Complejidad</em>. Ejemplo: si tienes, 3 puntos en la rama de encantamientos, podrás optar al uso de hechizos de complejidad 1, 2 y 3.</li>
+<li><strong>Lanzamiento del hechizo</strong>: el lanzamiento del hechizo puede requerir tiradas de D20 (e incluso con un bonificador por “Control de Varita”) para obtener bonificaciones. Todas ellas están descritas en la tabla de a continuación, y en la sección de daño de combate.</li>
+</ul>
+<section id="tabla-de-contenido" class="level2">
+<h2 class="anchored" data-anchor-id="tabla-de-contenido">Tabla de contenido</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Nombre del hechizo</th>
+<th style="text-align: left;">Complejidad</th>
+<th style="text-align: left;">Daño</th>
+<th style="text-align: left;">Tirada necesaria</th>
+<th style="text-align: left;">Categoría</th>
+<th style="text-align: left;">Descripción</th>
+<th style="text-align: left;">Requisitos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Accio</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Hechizo invocador que atrae objetos hacia el conjurador. Es útil para recuperar artículos lejanos sin tener que moverse.</td>
+<td style="text-align: left;">Pronunciación clara y concentración en el objeto deseado.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alohomora</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Hechizo de apertura que desbloquea puertas y cerraduras. Es uno de los primeros hechizos que aprenden los estudiantes.</td>
+<td style="text-align: left;">Movimiento de varita, pronunciación correcta y enfoque en el objetivo.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Aquamenti</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Invoca agua pura desde la varita, útil para diversas situaciones, incluyendo la hidratación.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Braquiam Emendo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Sanación</td>
+<td style="text-align: left;">Repara fracturas en extremidades de forma efectiva. Se utiliza comúnmente en primeros auxilios mágicos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita adecuado.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Colloportus</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Cierra y sella puertas de manera mágica, impidiendo que se abran sin el hechizo adecuado.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Colovaria</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Transformación</td>
+<td style="text-align: left;">Cambia el color de un objeto, usado a menudo en magia decorativa.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Confringo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">6 + CDV + daño impacto [D6]</td>
+<td style="text-align: left;">Requiere relativa puntería</td>
+<td style="text-align: left;">Encantamiento</td>
+<td style="text-align: left;">Causa una explosión controlada y proyecta objetos por los aires. Es útil tanto en combate como en situaciones de emergencia.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento explosivo de la varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Confundo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Pérdida Acción de movimiento y defensa</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Encantamiento</td>
+<td style="text-align: left;">Confunde a la víctima, dificultando su capacidad para actuar o pensar con claridad. Se usa en combate y en escapatorias.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Expelliarmus</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2 + CDV + Desarme</td>
+<td style="text-align: left;">Desarmar requiere puntería</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Desarma a un oponente al expulsar objetos de sus manos. Es una técnica común en combates mágicos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita decidido.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fiery</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Encantamiento</td>
+<td style="text-align: left;">Crea llamas o efectos de fuego. Usado para crear espectáculos o para asustar a los enemigos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Impedimenta</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Pérdida Acción de movimiento</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Detiene a un oponente y lo ralentiza, dificultando su avance. Es útil en situaciones de combate.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lapifors</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Transformación</td>
+<td style="text-align: left;">Transforma objetos en conejos. Es un hechizo de transformación divertido y a menudo utilizado en espectáculos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Lumos</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Encantamiento</td>
+<td style="text-align: left;">Crea luz en la punta de la varita, iluminando el entorno. Es uno de los hechizos más básicos que se enseñan.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento circular de la varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Apaga la luz creada por el hechizo Lumos, permitiendo la oscuridad nuevamente. Es útil para la discreción.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Obscuro</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Pérdida Acción ataque y defensa</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Cubre los ojos de la víctima, impidiendo que vea. Útil para confundir o incapacitar temporalmente.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Periculum</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Lanza un destello de luz roja en el aire, señalando o alertando a otros. Usado como una señal de advertencia.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Protego</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">10 + CDV</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Protección</td>
+<td style="text-align: left;">Crea un escudo mágico que bloquea ataques, protegiendo al lanzador de daños. Fundamental en duelos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento enfocado de la varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Reparo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Repara objetos rotos o dañados, restaurándolos a su estado original. Es uno de los hechizos más útiles y prácticos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rictusempra</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1 + CDV + Pérdida Acción defensa</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Provoca cosquillas en la víctima, incapacitando temporalmente. Puede ser usado para distraer o incapacitar oponentes.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tergeo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Limpia objetos o superficies, absorbiendo la suciedad. Es un hechizo de limpieza común.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Titillando</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Provoca cosquillas a la víctima, haciéndola reír. Usado para distraer o desarmar a oponentes.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Verdimillious</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Utilidad</td>
+<td style="text-align: left;">Crea un destello verde que puede cegar temporalmente a los enemigos. Es útil en situaciones de combate.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="hechizos-de-uso-en-combate" class="level1">
+<h1>Hechizos de uso en combate</h1>
+<p>El uso de hechizos requiere una serie de habilidades. La lista de a continuación muestra un recorte del total de los hechizos que pueden ser usados en combate en función de su complejidad. Para su uso se require de:</p>
+<ul>
+<li><strong>Conocimiento de hechizos</strong>: puntos de habilidad mágica en la rama de encantamientos, caracterizados en la tabla como <em>Complejidad</em>. Ejemplo: si tienes, 3 puntos en la rama de encantamientos, podrás optar al uso de hechizos de complejidad 1, 2 y 3.</li>
+<li><strong>Lanzamiento del hechizo</strong>: el lanzamiento del hechizo puede requerir tiradas de D20 (e incluso con un bonificador por “Control de Varita”) para obtener bonificaciones. Todas ellas están descritas en la tabla de a continuación, y en la sección de daño de combate.</li>
+</ul>
+<p><em>Nota: consultar con el DM para el uso de hechizos en combate que no estén en esta lista.</em></p>
+<section id="tabla-de-contenido-1" class="level2">
+<h2 class="anchored" data-anchor-id="tabla-de-contenido-1">Tabla de contenido</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Nombre del hechizo</th>
+<th style="text-align: left;">Complejidad</th>
+<th style="text-align: left;">Daño</th>
+<th style="text-align: left;">Tirada necesaria</th>
+<th style="text-align: left;">Categoría</th>
+<th style="text-align: left;">Descripción</th>
+<th style="text-align: left;">Requisitos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Braquiam Emendo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Sanación</td>
+<td style="text-align: left;">Repara fracturas en extremidades de forma efectiva. Se utiliza comúnmente en primeros auxilios mágicos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita adecuado.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Confringo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">6 + CDV + daño impacto [D6]</td>
+<td style="text-align: left;">Requiere relativa puntería</td>
+<td style="text-align: left;">Encantamiento</td>
+<td style="text-align: left;">Causa una explosión controlada y proyecta objetos por los aires. Es útil tanto en combate como en situaciones de emergencia.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento explosivo de la varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Confundo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Pérdida Acción de movimiento y defensa</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Encantamiento</td>
+<td style="text-align: left;">Confunde a la víctima, dificultando su capacidad para actuar o pensar con claridad. Se usa en combate y en escapatorias.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Expelliarmus</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2 + CDV + Desarme</td>
+<td style="text-align: left;">Desarmar requiere puntería</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Desarma a un oponente al expulsar objetos de sus manos. Es una técnica común en combates mágicos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita decidido.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Impedimenta</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Pérdida Acción de movimiento</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Detiene a un oponente y lo ralentiza, dificultando su avance. Es útil en situaciones de combate.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lapifors</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Transformación</td>
+<td style="text-align: left;">Transforma objetos en conejos. Es un hechizo de transformación divertido y a menudo utilizado en espectáculos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Obscuro</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Pérdida Acción ataque y defensa</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Cubre los ojos de la víctima, impidiendo que vea. Útil para confundir o incapacitar temporalmente.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Protego</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">10 + CDV</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Protección</td>
+<td style="text-align: left;">Crea un escudo mágico que bloquea ataques, protegiendo al lanzador de daños. Fundamental en duelos.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento enfocado de la varita.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rictusempra</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1 + CDV + Pérdida Acción defensa</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Maldición</td>
+<td style="text-align: left;">Provoca cosquillas en la víctima, incapacitando temporalmente. Puede ser usado para distraer o incapacitar oponentes.</td>
+<td style="text-align: left;">Pronunciación clara y un movimiento de varita.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="pociones" class="level1">
+<h1>Pociones</h1>
+<p>La elaboración de pociones requiere una serie de ingredientes. La lista de a continuación muestra los más peculiares de la elaboración, pudiendo no ser comunes. Es por ello que para la elaboración de pociones se require de:</p>
+<ul>
+<li><strong>Conocimiento de pociones</strong>: puntos de habilidad mágica en la rama de pociones, caracterizados en la tabla como <em>Complejidad</em>.</li>
+<li><strong>Kit para la elaboración de pociones</strong>: el jugador debe poseer en su inventario un Kit para la elaboración de pociones.
+<ul>
+<li><strong>Básico</strong>: material justo y necesario para elaborar pociones sencillas. Incluye ingredientes comunes para numerosas pociones. Permite hasta <strong>3</strong> elaboraciones de pociones de complejidad básica antes de quedarse sin ingredientes.</li>
+<li><strong>Intermedio</strong>: proporciona balanzas, medidores y otros utensilios más sofisticados para la elaboración de pociones que requiren cierta precisión y elaboración. Incluye ingredientes más complicados de conseguir, además de los comunes. Permite hasta <strong>2</strong> elaboraciones de pociones de complejidad intermedia antes de quedarse sin ingredientes.</li>
+<li><strong>Avanzado</strong>: provee de herramientas avanzadas de cocción, fermentación y otros procesos más complejos de elaboración de pociones. Además de los ingredientes del Kit Intermedio, incluye una selección de ingredientes exóticos y raros. Permite <strong>una única</strong> elaboración de una poción avanzada antes de quedarse sin ingredientes.</li>
+</ul></li>
+<li><strong>Destreza del personaje</strong>: la estadística de destreza del personaje que elabora la poción sserá fundamental para asegurar que los efectos de la poción son los esperados. Se efectuará una tirada de destreza sumada a un D20, con los siguientes criterios (similares a los de la tirada de dificultad):
+<ul>
+<li>Poción <strong>aceptable</strong>: <strong>4</strong> o más (85% de éxito): sus efectos son volátiles y débiles.</li>
+<li>Poción <strong>estándar</strong>: <strong>7</strong> o más (70% de éxito): sus efectos son los esperados.</li>
+<li>Poción <strong>buena</strong>: <strong>10</strong> o más (55% de éxito): sus efectos son potentes y significativamente mejores.</li>
+<li>Poción <strong>muy buena</strong>: <strong>15</strong> o más (30% de éxito): sus efectos son sobresalientes, de rápida actuación y muy eficaces.</li>
+<li>Poción <strong>perfecta</strong> (muy difícil): <strong>19</strong> o más (10% de éxito): sus efectos son perfectos e incapaces de contrarrestar (salvo por otra poción perfecta).</li>
+</ul></li>
+</ul>
+<p><em>Nota: como los Kits Avanzado e Intermedio contienen a su vez ingredientes comunes, se pueden elaborar con ellos pociones de complejidad básica, al igual que el Kit Avanzado en relación al Kit Intermedio, con el avanzado se podrán elaborar pociones de complejidad intermedia.</em> <em>De esta forma, un jugador con un Kit Avanzado podrá elaborar hasta 6 pociones distintas.</em></p>
+<p><em>(Aunque los ingredientes clave puedan repetirse entre pociones, sólo se puede elaborar una poción concreta por Kit: preparar dos antídotos de venenos comunes requerirá dos kits de elaboración de pociones)</em></p>
+<section id="tabla-de-contenido-2" class="level2">
+<h2 class="anchored" data-anchor-id="tabla-de-contenido-2">Tabla de contenido</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Nombre de la poción</th>
+<th style="text-align: left;">Complejidad</th>
+<th style="text-align: left;">Kit necesario</th>
+<th style="text-align: left;">Descripción</th>
+<th style="text-align: left;">Ingredientes Clave</th>
+<th style="text-align: left;">Elaboración</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Antídoto para venenos comunes</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Cura venenos comunes.</td>
+<td style="text-align: left;">Bezoar, mandrágora.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brebaje Bocazas</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Hace que el bebedor no pueda dejar de hablar.</td>
+<td style="text-align: left;">Raíz de mandrágora, pimienta roja.</td>
+<td style="text-align: left;">Se requiere un simple proceso de cocción.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Filtro de paz</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Calma al bebedor, aliviando ansiedad y estrés.</td>
+<td style="text-align: left;">Lavanda, miel de Glumbumble.</td>
+<td style="text-align: left;">Necesita cocción prolongada.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Infusión de hipo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Cura el hipo de forma inmediata.</td>
+<td style="text-align: left;">Agua de manantial, extracto de limón.</td>
+<td style="text-align: left;">Sencillo de hacer con ingredientes comunes.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poción alisadora</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Suaviza el cabello o la piel.</td>
+<td style="text-align: left;">Aceite de coco, lágrimas de unicornio.</td>
+<td style="text-align: left;">Proceso de mezcla simple.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poción de curación de forúnculos</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Cura forúnculos y otras infecciones cutáneas.</td>
+<td style="text-align: left;">Espinas de pez globo, ortiga, díctamo.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poción de la memoria</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Mejora la memoria temporalmente.</td>
+<td style="text-align: left;">Hojas de menta, ajenjo.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poción de la risa</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Provoca risa incontrolable.</td>
+<td style="text-align: left;">Polen de risolindo.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poción del olvido</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Induce amnesia temporal.</td>
+<td style="text-align: left;">Ajenjo, esencia de flores.</td>
+<td style="text-align: left;">Necesita control del tiempo de cocción.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poción herbicida</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Mata o debilita plantas.</td>
+<td style="text-align: left;">Jugo de ortiga.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poción limpia-heridas</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Desinfecta y cura heridas menores.</td>
+<td style="text-align: left;">Agua purificada, esencia de aloe vera.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poción para la tos</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Cura la tos severa.</td>
+<td style="text-align: left;">Raíz de regaliz, miel de Glumbumble.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poción pimentónica</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Básico</td>
+<td style="text-align: left;">Cura resfriado común y calienta al destinatario. Como efecto secundario sale vapor de las orejas del bebedor durante varias horas.</td>
+<td style="text-align: left;">Pimienta negra, escencia de ginseng.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poción de sueño sin sueños</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Intermedio</td>
+<td style="text-align: left;">Induce un sueño profundo sin sueños.</td>
+<td style="text-align: left;">Valeriana, ajenjo.</td>
+<td style="text-align: left;">Fácil de preparar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poción para arpías</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Avanzado</td>
+<td style="text-align: left;">Reduce el apetito de carne humana a las arpías.</td>
+<td style="text-align: left;">Hígado de arpía, plumas de grifo.</td>
+<td style="text-align: left;">Requiere ingredientes raros y peligrosos de obtener.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="criaturas-mágicas" class="level1">
+<h1>Criaturas mágicas</h1>
+<p>Habilidad para interactuar con criaturas y plantas mágicas. Los jugadores pueden domesticar criaturas y/o plantas mágicas, comprender su comportamiento, usarlos para crear soluciones o defensas, etc.</p>
+<ol type="1">
+<li>Conocimiento: Identificación y clasificación de criaturas y plantas mágicas.</li>
+<li>Comunicación e Interpretación: Capacidad de interactuar con criaturas mágicas, relacionado con carisma.</li>
+</ol>
+<section id="tabla-de-contenido-3" class="level2">
+<h2 class="anchored" data-anchor-id="tabla-de-contenido-3">Tabla de contenido</h2>
+<p>La tabla de a continuación muestra la clasificación que el ministerio de magia (MM) dio a a todas las criaturas basándose en qué tan peligrosas son.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Complejidad</th>
+<th style="text-align: left;">Clasificación MM</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">Aburridas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Inofensivas, pueden ser domesticadas.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">XXX</td>
+<td style="text-align: left;">Magos competentes pueden salir adelante.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">XXXX</td>
+<td style="text-align: left;">Peligroso: requiere conocimientos especiales. Magos experimentados pueden manejarlas.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>Respeto mágico</strong>: Capacidad de diálogo y negociación con criaturas mágicas inteligentes que no tienen en general buenas relaciones con los magos.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">XXXXX</td>
+<td style="text-align: left;">Con reputación de asesinar magos: imposible de entrenar o domesticar.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Criatura</th>
+<th style="text-align: left;">Clasificación MM</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Horklump</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">Criaturas similares a hongos con púas que salen disparadas, capaces de herir a quien se acerque demasiado. Son rosados y con púas rojas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sapo</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">Sapo común (no mágico), que se usa como mascota, conejillo de indias de encantamientos y como ingrediente de numerosas pociones.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sapo púrpura gigante</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">También conocido como un rana toro, tiene una lengua larga y verde, piel gruesa y oscura y los individuos que los toquen podrían contraer verrugas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Augurey</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Ave que predice la lluvia con su canto, anteriormente se pensaba que predice la muerte.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Babosa carnívora</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura mágica muy similar a la babosa común.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bicornio</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura peligrosa parecida a la vaca, y se destacan por tener dos cuernos ondulados y puntiagudos, que son usados como ingredientes para pociones.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bowtruckle</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura pequeña que protege los árboles de los cuales se obtienen varitas mágicas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chizpurfle</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Pequeños parásitos de medio centímetro de alto que se parecen a los cangrejos y poseen unos colmillos considerables.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Clabbert</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura arborícola con un aspecto parecido a un cruce entre un mono y una rana. Posee un diente puntiagudo y un abultamiento en la frente que brilla cuando hay peligro.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Diricawl</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Ave mágica con un plumaje colorido y brillante conocida anteriormente por muggles como “dodo”.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ghoul</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura humanoide que se encuentra en lugares lúgubres y húmenos. Son relativamente inofensivos y son, a menudo, vistos como mascotas por las familias mágicas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Grindylow</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Demonio acuático, peligroso en el agua, conocido por atacar a los humanos.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gnomo</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Los gnomos o enanitos de jardín, son criaturas mágicas conocida comúnmente por infestar los jardines de las casas de magos.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gusarajo</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Gusano de unas de veinticinco centímetros de longitud, de color marrón, sin dientes y que come vegetación, especialmente lechuga y repollo. Su moco es utilizado como ingrediente de pociones.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hada</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criaturas humanoides pequeñas y decorativas dotadas de poca inteligencia. Los magos las usan o invocan frecuentemente para que les sirvan de adorno.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jobberknoll</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Ave azul moteado que nunca hace ningún ruido hasta el momento antes de morir.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mooncalf</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura tímida que sólo sale de su madriguera durante la luna llena. Tiene una piel gris pálida y cuatro piernas delgadas que terminan en grandes pies planos. También tiene ojos saltones que están en la cima de su cabeza.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Porlock</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura guardián de caballos que vive en el césped. Bien se puede encontrar de anidación en la paja de un establo, o en el medio de la manada que está protegiendo. Los porlocks desconfían de los humanos y se esconden cuando se acercan.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Puffskein</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Criatura que se encuentra por todo el mundo y es considerado uno de los animales mas domesticables. De forma esférica y cubierto por un pelaje suave, de color natillas, es una criatura dócil que no se opone a que lo mimen ni a que la gente juegue con él lanzándoselo de unas manos a otras.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rámora</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Ppez plateado que tiene un fuerte poder mágico para anclar los barcos en su lugar.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Serpiente arbórea africana</td>
+<td style="text-align: left;">XX</td>
+<td style="text-align: left;">Serpiente culebrosa, pequeña y venenosa, que es nativa del África subsahariana. Su piel es usada como ingrediente para la fabricación de pociones, como la poción multijugos.</td>
+</tr>
+</tbody>
+</table>
+<p>Otras criaturas mágicas inteligentes que no son consideradas bestias o animales fantásticos están descritas a continuación, con la fortuna que el jugador con <strong>4</strong> puntos en <em>criaturas</em> cuenta con el <strong>Respeto mágico</strong> y podrá entablar relaciones con ellos, contar con su confianza (nada común entre los magos y brujas) y con conocimientos de su cultura y constumbres.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Ser</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Arpía</td>
+<td style="text-align: left;">Ser come-niños que parece una bruja vieja con muchas verrugas. Tienen sólo magia rudimentaria, similar a la observada en los trolls.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Centauros</td>
+<td style="text-align: left;">Criaturas mágicas de clasificación XXXX por el MM, cuya cabeza, torso y brazos parecen humanos y estan unidos a la parte inferior del cuerpo de un caballo. Sin embargo, son su propia especie individual y, por tanto, no son Híbridos. También tienen una rica historia y son conocidos por tener un talento natural en tiro con arco, magia curativa, adivinación y astronomía. A pesar de poseer “inteligencia humana”, fueron clasificados como Bestias por el MM a petición propia, ya que no estaban contentos de tener que compartir el estatus de Ser con arpías y vampiros, conocidas criaturas oscuras.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Duendes</td>
+<td style="text-align: left;">Raza muy inteligente de pequeños humanoides con dedos y pies largos que coexisten con los magos y brujas. Hablan en un idioma conocido como duendigonza, y son buenos orfebres notables por su platería; incluso acuñan monedas como dinero mágico. Debido a sus habilidades con el dinero y las finanzas, controlan la economía mágica en gran medida y administran el banco mágico Gringotts. Tienen su tipo de magia y pueden hacer magia sin varita. Su esperanza de vida supera los 100 años.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Elfos domésticos</td>
+<td style="text-align: left;">También conocidos como elfos,son criaturas mágica inmensamente devotas y leales a la persona designada como su amo. Sirven a magos y brujas y generalmente se encuentran bajo el empleo de viejas familias de magos que residen en establecimientos elaborados, como mansiones, y deben hacer todo lo que sus amos mandan a menos que sean liberados. Un elfo doméstico solo puede ser liberado cuando su amo les entrega ropa. La mayoríano soportan la idea de ser libres. Tienen su propia marca de magia si Su esperanza de vida data de cientos de años, sin superar los 1000 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gente del agua</td>
+<td style="text-align: left;">Criaturas mágicas con inteligencia semi-humana que viven en el fondo del agua. Hay gente del agua por todo el mundo, y varían en apariencia casi tanto como los seres humanos. Sus prácticas y costumbres tienen un halo de misterio equiparable al que rodea a los centauros, aunque aquellos magos que han aprendido sirenio hablan de comunidades sumamente organizadas que varían de tamaño según el hábitat y que, en algunos casos, disponen de viviendas construidas con mucho esmero. También se sabe que domestican criaturas tales como grindylows e hipocampos. Al igual que los centauros, la gente del agua ha rechazado el estatus de seres en favor de la clasificación de bestias, ya que estaban en contra de compartir el estatus con arpías y vampiros.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gigantes</td>
+<td style="text-align: left;">Homínidos muy grande que potencialmente puede llegar a unos veinte metros de altura, y parecen seres humanos de gran tamaño. Los gigantes no son tan inteligentes como los magos y las brujas, pero tienen su propio lenguaje, cultura y sociedad. Una tribu de gigantes es dirigida por el gigante mayor, conocido como Gurg. Su esperanza de vida supera los 200 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Licántropos (hombres lobo) en forma humana</td>
+<td style="text-align: left;">Personas que llevan consigo la enfermedad de la licantropía. Tienen la capacidad de transformarse en un lobo en apariencia y naturaleza, al haber sido mordidas por un hombre lobo en su forma de lobo en el momento de la luna llena. El hombre lobo se transforma bajo la influencia de esta.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Muggles</td>
+<td style="text-align: left;">Comunidad de gente no mágica. Su esperanza de vida no supera los 100 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Squibs</td>
+<td style="text-align: left;">Gente no mágica nacida en familias con sangre mágica. Su esperanza de vida no supera los 100 años.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vampiros</td>
+<td style="text-align: left;">Humanoides mágicos famosos por morder a las personas en el cuello y chuparles la sangre. De apariencia pálida y demacrada,poseen colmillos afilados para perforar las gargantas de sus víctimas. Su esperanza de vida no supera los 200 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Veelas</td>
+<td style="text-align: left;">Raza de semi-humanas remanentes de las sirenas. De apariencia de muy jóvenes y bellas mujeres, poseen una danza mágicamente seductora para la mayoría de los hombres. Cuando se enojan, sus rostros se convierten en algo parecido a la cabeza de un ave con picos largos y filosos y con largas plumas que nacen de sus hombros, también pueden lanzar bolas de fuego de sus manos.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="plantas-mágicas" class="level2">
+<h2 class="anchored" data-anchor-id="plantas-mágicas">Plantas mágicas</h2>
+</section>
+<section id="tabla-de-contenido-4" class="level2">
+<h2 class="anchored" data-anchor-id="tabla-de-contenido-4">Tabla de contenido</h2>
+<p>La tabla de a continuación muestra las plantas mágicas y los puntos de <em>criaturas y plantas</em> necesarios para su domesticación, uso y cuidado.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Planta</th>
+<th style="text-align: left;">Complejidad</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Branquialgas</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Cuando es ingerida, esta planta causa el crecimiento de branquias y dedos palmeados, y así se hace posible respirar y nadar bajo el agua por aproximadamente una hora, dependiendo de si el usuario está en agua dulce o salada.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Flor voladora</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Planta que a la vista se asemeja al lazo del diablo, pero es inofensiva.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Geranio colmilludo</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Planta de jardín común que se sabe que muerde o ataca si no se cuida. No es carnívora, pero sus afilados colmillos causan dolos a sus víctimas.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="erudición-mística" class="level1">
+<h1>Erudición Mística</h1>
+<p>Es el conocimiento teórico y práctico sobre diversas disciplinas mágicas, llegando a alcanzar poderes místicos de premonición y adivinación.</p>
+<ol type="1">
+<li>Conocimiento: conocimiento profundo de historia mágica, lectura e interpretación de runas. Relacionado con <em>inteligencia</em>, acciones relacionadas con la historia, cultura o runas requerirán de tiradas de de <em>inteligencia</em> (<em>inteligencia</em> + D20).</li>
+<li>Interpretación: Capacidad de interpretar señales de magia, visiones a través de distintos objetos e incluso visualizar hechos que aún no han occurido. Relacionado con <em>potencial mágico</em>, se requiere una tirada de <em>potencial mágico</em> + D20.</li>
+</ol>
+<section id="tabla-de-contenido-5" class="level2">
+<h2 class="anchored" data-anchor-id="tabla-de-contenido-5">Tabla de contenido</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Capacidad</th>
+<th style="text-align: left;">Poder místico</th>
+<th style="text-align: left;">Descripción</th>
+<th style="text-align: left;">Requisitos / Tirada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Conocimiento mágico popular</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Conocimiento básico de historia mágica, cultura mágica popular y runas simples.</td>
+<td style="text-align: left;">Inteligencia media.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Percepción de alteraciones en la magia</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Capacidad de sentir alteraciones en la magia (por ejemplo, concentración de magia poderosa u oscura en determinadas ubicaciones).</td>
+<td style="text-align: left;">Potencial mágico medio.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Descrifrar vagamente el futuro ajeno</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Capacidad de mediante la tesomancia, quiromancia o cartomancia, interpretar señales sobre el pasado o el futuro de otras personas.</td>
+<td style="text-align: left;">Potencial mágico medio, puede requerir objetos.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Interpretación astrológica</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Capacidad de interpretar señales en el cielo nocturno sobre hechos que aun no han pasado.</td>
+<td style="text-align: left;">Potencial mágico medio.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Conocimiento mágico avanzado</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Profundo conocimiento de historia mágica, cultura mágica internacional y runas avanzadas.</td>
+<td style="text-align: left;">Inteligencia alta.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Anticipación del peligro</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Capacidad de detectar que existe un peligro mágico inminente.</td>
+<td style="text-align: left;">Potencial mágico alto.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Respeto mágico</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Capacidad de diálogo y negociación con criaturas mágicas inteligentes que no tienen en general buenas relaciones con los magos.</td>
+<td style="text-align: left;">Potencial mágico altos.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Detección de magia oculta</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Capacidad de detectar qué peligros o tipos de magia oculta se aproximan.</td>
+<td style="text-align: left;">Potencial mágico alto.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Premonición</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Capacidad de ver con claridad hechos, lugares o circunstancias que han acontecido en otra línea temporal (pasadas o futuras) mediante la bola de cristal.</td>
+<td style="text-align: left;">Potencial mágico alto, requiere de una bola de cristal.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Astrología</strong>: arte de interpretar la orientación de las estrellas para predecir eventos del futuro.</p>
+<p><strong>Tesomancia</strong>: arte de leer las hojas de té para predecir eventos del futuro a otras personas.</p>
+<p><strong>Quiromancia</strong>: arte de la predicción de eventos del futuro de otras personas a través del estudio de su palma de la mano.</p>
+<p><strong>Cartomancia</strong>: arte de la lectura de cartas (del tarot) para conocer mejor los acontecimientos futuros.</p>
+<p>El <strong>Respeto mágico</strong> afecta a la siguiente lista de criaturas mágicas inteligentes que no son consideradas bestias o animales fantásticos. El jugador con <strong>4</strong> puntos en <em>erudición mística</em> cuenta con el <strong>Respeto mágico</strong>, y podrá entablar relaciones con ellos, contar con su confianza (nada común entre los magos y brujas) y con conocimientos de su cultura y constumbres.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Ser</th>
+<th style="text-align: left;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Arpía</td>
+<td style="text-align: left;">Ser come-niños que parece una bruja vieja con muchas verrugas. Tienen sólo magia rudimentaria, similar a la observada en los trolls.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Centauros</td>
+<td style="text-align: left;">Criaturas mágicas de clasificación XXXX por el MM, cuya cabeza, torso y brazos parecen humanos y estan unidos a la parte inferior del cuerpo de un caballo. Sin embargo, son su propia especie individual y, por tanto, no son Híbridos. También tienen una rica historia y son conocidos por tener un talento natural en tiro con arco, magia curativa, adivinación y astronomía. A pesar de poseer “inteligencia humana”, fueron clasificados como Bestias por el MM a petición propia, ya que no estaban contentos de tener que compartir el estatus de Ser con arpías y vampiros, conocidas criaturas oscuras.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Duendes</td>
+<td style="text-align: left;">Raza muy inteligente de pequeños humanoides con dedos y pies largos que coexisten con los magos y brujas. Hablan en un idioma conocido como duendigonza, y son buenos orfebres notables por su platería; incluso acuñan monedas como dinero mágico. Debido a sus habilidades con el dinero y las finanzas, controlan la economía mágica en gran medida y administran el banco mágico Gringotts. Tienen su tipo de magia y pueden hacer magia sin varita. Su esperanza de vida supera los 100 años.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Elfos domésticos</td>
+<td style="text-align: left;">También conocidos como elfos,son criaturas mágica inmensamente devotas y leales a la persona designada como su amo. Sirven a magos y brujas y generalmente se encuentran bajo el empleo de viejas familias de magos que residen en establecimientos elaborados, como mansiones, y deben hacer todo lo que sus amos mandan a menos que sean liberados. Un elfo doméstico solo puede ser liberado cuando su amo les entrega ropa. La mayoríano soportan la idea de ser libres. Tienen su propia marca de magia si Su esperanza de vida data de cientos de años, sin superar los 1000 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gente del agua</td>
+<td style="text-align: left;">Criaturas mágicas con inteligencia semi-humana que viven en el fondo del agua. Hay gente del agua por todo el mundo, y varían en apariencia casi tanto como los seres humanos. Sus prácticas y costumbres tienen un halo de misterio equiparable al que rodea a los centauros, aunque aquellos magos que han aprendido sirenio hablan de comunidades sumamente organizadas que varían de tamaño según el hábitat y que, en algunos casos, disponen de viviendas construidas con mucho esmero. También se sabe que domestican criaturas tales como grindylows e hipocampos. Al igual que los centauros, la gente del agua ha rechazado el estatus de seres en favor de la clasificación de bestias, ya que estaban en contra de compartir el estatus con arpías y vampiros.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gigantes</td>
+<td style="text-align: left;">Homínidos muy grande que potencialmente puede llegar a unos veinte metros de altura, y parecen seres humanos de gran tamaño. Los gigantes no son tan inteligentes como los magos y las brujas, pero tienen su propio lenguaje, cultura y sociedad. Una tribu de gigantes es dirigida por el gigante mayor, conocido como Gurg. Su esperanza de vida supera los 200 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Licántropos (hombres lobo) en forma humana</td>
+<td style="text-align: left;">Personas que llevan consigo la enfermedad de la licantropía. Tienen la capacidad de transformarse en un lobo en apariencia y naturaleza, al haber sido mordidas por un hombre lobo en su forma de lobo en el momento de la luna llena. El hombre lobo se transforma bajo la influencia de esta.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Muggles</td>
+<td style="text-align: left;">Comunidad de gente no mágica. Su esperanza de vida no supera los 100 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Squibs</td>
+<td style="text-align: left;">Gente no mágica nacida en familias con sangre mágica. Su esperanza de vida no supera los 100 años.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vampiros</td>
+<td style="text-align: left;">Humanoides mágicos famosos por morder a las personas en el cuello y chuparles la sangre. De apariencia pálida y demacrada,poseen colmillos afilados para perforar las gargantas de sus víctimas. Su esperanza de vida no supera los 200 años.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Veelas</td>
+<td style="text-align: left;">Raza de semi-humanas remanentes de las sirenas. De apariencia de muy jóvenes y bellas mujeres, poseen una danza mágicamente seductora para la mayoría de los hombres. Cuando se enojan, sus rostros se convierten en algo parecido a la cabeza de un ave con picos largos y filosos y con largas plumas que nacen de sus hombros, también pueden lanzar bolas de fuego de sus manos.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
