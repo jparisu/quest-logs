@@ -1,0 +1,99 @@
+---
+title: Pociones
+format:
+   html:
+      toc: true
+      toc-depth: 3
+---
+
+# Pociones
+
+La elaboración de pociones requiere una serie de ingredientes.
+La lista de a continuación muestra los más peculiares de la elaboración, pudiendo no ser comunes.
+Es por ello que para la elaboración de pociones se require de:
+
+- __Conocimiento de pociones__: puntos de habilidad mágica en la rama de pociones, caracterizados en la tabla como _Complejidad_.
+- __Kit para la elaboración de pociones__: el jugador debe poseer en su inventario un Kit para la elaboración de pociones.
+  * __Básico__: material justo y necesario para elaborar pociones sencillas.
+    Incluye ingredientes comunes para numerosas pociones.
+    Permite hasta __3__ elaboraciones de pociones de complejidad básica antes de quedarse sin ingredientes.
+  * __Intermedio__: proporciona balanzas, medidores y otros utensilios más sofisticados para la elaboración de pociones que requiren cierta precisión y elaboración.
+    Incluye ingredientes más complicados de conseguir, además de los comunes.
+    Permite hasta __2__ elaboraciones de pociones de complejidad intermedia antes de quedarse sin ingredientes.
+  * __Avanzado__: provee de herramientas avanzadas de cocción, fermentación y otros procesos más complejos de elaboración de pociones.
+    Además de los ingredientes del Kit Intermedio, incluye una selección de ingredientes exóticos y raros.
+    Permite __una única__ elaboración de una poción avanzada antes de quedarse sin ingredientes.
+- __Destreza del personaje__: la estadística de destreza del personaje que elabora la poción sserá fundamental para asegurar que los efectos de la poción son los esperados.
+  Se efectuará una tirada de destreza sumada a un D20, con los siguientes criterios (similares a los de la tirada de dificultad):
+  * Poción __aceptable__: __4__ o más (85% de éxito): sus efectos son volátiles y débiles.
+  * Poción __estándar__: __7__ o más (70% de éxito): sus efectos son los esperados.
+  * Poción __buena__: __10__ o más (55% de éxito): sus efectos son potentes y significativamente mejores.
+  * Poción __muy buena__: __15__ o más (30% de éxito): sus efectos son sobresalientes, de rápida actuación y muy eficaces.
+  * Poción __perfecta__ (muy difícil): __19__ o más (10% de éxito): sus efectos son perfectos e incapaces de contrarrestar (salvo por otra poción perfecta).
+
+_Nota: como los Kits Avanzado e Intermedio contienen a su vez ingredientes comunes, se pueden elaborar con ellos pociones de complejidad básica, al igual que el Kit Avanzado en relación al Kit Intermedio, con el avanzado se podrán elaborar pociones de complejidad intermedia._
+_De esta forma, un jugador con un Kit Avanzado podrá elaborar hasta 6 pociones distintas._
+
+_(Aunque los ingredientes clave puedan repetirse entre pociones, sólo se puede elaborar una poción concreta por Kit: preparar dos antídotos de venenos comunes requerirá dos kits de elaboración de pociones)_
+
+## Tabla de contenido
+
+|Nombre de la poción|Complejidad|Kit necesario|Descripción|Ingredientes Clave|Elaboración|
+|:----|:----|:----|:----|:----|:----|
+|Antídoto para venenos comunes|1|Básico|Cura venenos comunes.|Bezoar, mandrágora.|Fácil de preparar.|
+|Brebaje Bocazas|1|Básico|Hace que el bebedor no pueda dejar de hablar.|Raíz de mandrágora, pimienta roja.|Se requiere un simple proceso de cocción.|
+|Filtro de paz|1|Básico|Calma al bebedor, aliviando ansiedad y estrés.|Lavanda, miel de Glumbumble.|Necesita cocción prolongada.|
+|Infusión de hipo|1|Básico|Cura el hipo de forma inmediata.|Agua de manantial, extracto de limón.|Sencillo de hacer con ingredientes comunes.|
+|Poción alisadora|1|Básico|Suaviza el cabello o la piel.|Aceite de coco, lágrimas de unicornio.|Proceso de mezcla simple.|
+|Poción de curación de forúnculos|1|Básico|Cura forúnculos y otras infecciones cutáneas.|Espinas de pez globo, ortiga, díctamo.|Fácil de preparar.|
+|Poción de la memoria|1|Básico|Mejora la memoria temporalmente.|Hojas de menta, ajenjo.|Fácil de preparar.|
+|Poción de la risa|1|Básico|Provoca risa incontrolable.|Polen de risolindo.|Fácil de preparar.|
+|Poción del olvido|1|Básico|Induce amnesia temporal.|Ajenjo, esencia de flores.|Necesita control del tiempo de cocción.|
+|Poción herbicida|1|Básico|Mata o debilita plantas.|Jugo de ortiga.|Fácil de preparar.|
+|Poción limpia-heridas|1|Básico|Desinfecta y cura heridas menores.|Agua purificada, esencia de aloe vera.|Fácil de preparar.|
+|Poción para la tos|1|Básico|Cura la tos severa.|Raíz de regaliz, miel de Glumbumble.|Fácil de preparar.|
+|Poción pimentónica|1|Básico|Cura resfriado común y calienta al destinatario. Como efecto secundario sale vapor de las orejas del bebedor durante varias horas.|Pimienta negra, escencia de ginseng.|Fácil de preparar.|
+|Poción de sueño sin sueños|1|Intermedio|Induce un sueño profundo sin sueños.|Valeriana, ajenjo.|Fácil de preparar.|
+|Poción para arpías|1|Avanzado|Reduce el apetito de carne humana a las arpías.|Hígado de arpía, plumas de grifo.|Requiere ingredientes raros y peligrosos de obtener.|
+|Poción crecedora de cabello|2|Básico|Hace crecer el cabello rápidamente.|Cuerno de bicornio, raíz de ortiga.|Necesita control del tiempo de cocción.|
+|Poción desinfladora|2|Básico|Reduce la hinchazón provocada por magia.|Hojas de menta, esencia de cactus.|Requiere cocción precisa.|
+|Poción herbovitalizante|2|Básico|Curar heridas,y es el antídoto para la pócima para dormir y el filtro de muertos en vida.|Díctamo, moco de gusarajo.|Requiere cocción precisa.|
+|Poción de regerminación|2|Básico|Restaura la salud de las plantas que están a punto de morir. Es un estado normal, les da fuerza para germinar.|Crisopos, acónito|Requiere cocción precisa.|
+|Poción pepperup|2|Básico|Cura resfriados y provee energía.|Pimienta, hojas de menta.|Requiere cocción precisa.|
+|Poción pompion|2|Básico|Agranda la cabeza del bebedor temporalmente hasta alcanzar el tamaño de una calabaza|Crisopos, aconito|Requiere cocción precisa.|
+|Solución chispeante|2|Básico|Hace que el objeto sobre el que se derrame brille|Polvo de hada, extracto de plata.|Requiere cocción precisa.|
+|Pócima para dormir|2|Intermedio|Induce sueño profundo.|Lirio de agua, raíz de valeriana.|Precisa de un tiempo de reposo adecuado.|
+|Poción agudizadora de ingenio|2|Intermedio|Aumenta temporalmente la agudeza mental.|Raíz de ginseng, cerebro de cabra.|Debe ser almacenada en un ambiente oscuro.|
+|Solución agrandadora|2|Intermedio|Aumenta el tamaño de los objetos.|Esencia de gigante, polvo de coral.|Requiere cocción precisa.|
+|Solución para encoger|2|Intermedio|Reduce el tamaño de los objetos.|Savia de encina, polvo de diamante.|Requiere cocción precisa.|
+|Weedosoros|2|Intermedio|Veneno causa convulsiones y pérdida del sentido.|Polvo de dragón, savia de roble.|Requiere cocción precisa.|
+|Doxycida|3|Intermedio|Poción venenosa para eliminar Doxys.|Savia de abeto, esencia de menta.|Necesita cocción y fermentación.|
+|Elixir del cerebro de Baruffio|3|Intermedio|Aumenta la capacidad mental y el ingenio del consumidor.|Cerebro de rana, jugo de cebolla dorada.|Requiere un proceso de destilación.|
+|Esencia de locura|3|Intermedio|Induce locura temporal.|Raíz de belladona.|Requiere mezcla precisa de ingredientes.|
+|Filtro de confusión|3|Intermedio|Provoca confusión y desorientación.|Ajenjo, raíz de mandrágora.|Requiere cocción precisa.|
+|Filtro vigorizante|3|Intermedio|Revitaliza al usuario.|Moco de gustajo, crisopos.|Requiere mezcla precisa de ingredientes.|
+|Gas agarrotador|3|Intermedio|Dificulta la respiración.|Líquido corrosivo, hierba venenosa.|Requiere mezcla precisa de ingredientes.|
+|Pasta cura-quemaduras|3|Intermedio|Cura quemaduras mágicas.|Mimbulus mimbletonia, esencia de hierba de fuego.|Requiere mezcla precisa de ingredientes viscosos.|
+|Poción de resistencia|3|Intermedio|Aumenta la resistencia física y mágica.|Ginseng, escama de dragón.|Requiere mezcla precisa de ingredientes.|
+|Poción de despertares|3|Intermedio|Contrarresta el sueño o fatiga.|Jengibre, esencia de menta.|Cocción rápida, requiere concentración.|
+|Poción embellecedora|3|Intermedio|Mejora la apariencia física temporalmente.|Flores de verbena, polvo de hada.|Requiere tiempo de infusión.|
+|Poción envejecedora|3|Intermedio|Envejece temporalmente al bebedor.|Escama de dragón.|Requiere mezcla precisa de ingredientes.|
+|Poción para mordeduras de perros rabiosos|3|Intermedio|Cura mordeduras infectadas.|Mandrágora, raíz de dictamo.|Require cocción precisa.|
+|Solución fortificante|3|Intermedio|Fortalece temporalmente al usuario.|Escama de dragón, raíz de ginseng.|Requiere mezcla precisa de ingredientes.|
+|Elixir para provocar euforia|3|Avanzado|Causa una gran sensación de alegría.|Canela, plumas de fénix.|Precisa de un tiempo de reposo adecuado.|
+|Amortentia|4|Básico|Poción de amor extremadamente poderosa. Causa una obsesión hacia la persona que la da.Tiene un aroma diferente para cada persona según lo que más le guste|Pétalos de rosa, perlas trituradas, esencia de almendra.|El proceso de mezcla debe realizarse con extrema precisión.|
+|Filtro de muertos en vida|4|Básico|Induce un sueño profundo parecido a la muerte.|Raíz de asfódelo, ajenjo.|Se requiere mucho cuidado para no crear una versión letal.|
+|Antídoto de Veritaserum|4|Intermedio|Neutraliza los efectos de Veritaserum.|Flor de luna, raíz de dictamo.|Requiere mezcla precisa de ingredientes.|
+|Crece-huesos|4|Intermedio|Regenera huesos rotos o desaparecidos.|Espinas de erizo, polvo de huesos de dragón.|Debe tener cuidado con las proporciones para evitar efectos secundarios dolorosos.|
+|Poción para heridas|4|Intermedio|Cura heridas físicas graves. Esteriliza heridas como un poderoso antiséptico. Escuece y echa humo cuando es aplicado.|Mandrágora, díctamo.|Requiere precisión en la medición de ingredientes y cocción precisa.|
+|Antídoto para venenos poco comunes|4|Avanzado|Cura venenos raros.|Mandrágora, bezoar.|Requiere cocción precisa.|
+|Filtro restaurativo de mandrágora|4|Avanzado|Revierte transformaciones mágicas.|Mandrágora fresca, crisopos.|Requiere cocción precisa.|
+|Poción de aliento de fuego|4|Avanzado|Permite exhalar fuego.|Sangre de dragón.|Requiere cocción precisa.|
+|Poción de erumpent|4|Avanzado|Explosiva, imita la fuerza del cuerno de erumpent.|Cuerno de erumpent.|Requiere precisión en la medición de ingredientes y cocción precisa.|
+|Poción protectora contra las llamas|4|Avanzado|Proporciona protección contra el fuego.|Sangre de dragón, polvo de escama de basilisco.|Se necesita mucha concentración y precisión al medir los ingredientes.|
+|Ungüento amnésico del Dr. Ubbly|4|Avanzado|Cura las cicatrices provocadas por hechizos de memoria.|Lágrimas de duende, musgo de piedra lunar.|Requiere ingredientes mágicos poco comunes.|
+|Poción matalobos|5|Intermedio|Permite a los hombres lobo mantener control durante la transformación.|Aconito, sangre de lobo.|Se debe preparar antes de cada luna llena.|
+|Poción multijugos|5|Intermedio|Permite asumir la apariencia de otra persona.|Cuerno de bicornio, esencia de la persona a copiar.|Toma un mes en prepararse.|
+|Felix Felicis|5|Avanzado|Otorga suerte temporal al bebedor.|Pétalos de trébol dorado, néctar de niffler.|Se necesita precisión extrema y largos períodos de cocción.|
+|Venenos indetectables|5|Avanzado|Venenos imposibles de detectar en bebidas o alimentos.|Lágrimas de Banshee, polvo de dragón.|Se necesita precisión extrema y largos períodos de cocción.|
+|Veritaserum|5|Avanzado|Suero de la verdad, obliga al bebedor a revelar la verdad.|Lengua de salamandra, raíz de Aethusa.|Se requiere extrema precisión en los tiempos de destilación y temperaturas controladas para evitar fallos.|

@@ -1,0 +1,161 @@
+---
+title: Hechizos
+format:
+   html:
+      toc: true
+      toc-depth: 3
+---
+
+# Hechizos
+
+El uso de hechizos requiere una serie de habilidades.
+La lista de a continuación muestra los hechizos que pueden ser usados en función de su complejidad.
+Para su uso se require de:
+
+- __Conocimiento de hechizos__: puntos de habilidad mágica en la rama de encantamientos, caracterizados en la tabla como _Complejidad_.
+  Ejemplo: si tienes, 3 puntos en la rama de encantamientos, podrás optar al uso de hechizos de complejidad 1, 2 y 3.
+- __Lanzamiento del hechizo__: el lanzamiento del hechizo puede requerir tiradas de D20 (e incluso con un bonificador por "Control de Varita") para obtener bonificaciones.
+  Todas ellas están descritas en la tabla de a continuación, y en la sección de daño de combate.
+
+## Tabla de contenido
+
+|Nombre del hechizo|Complejidad|Daño|Tirada necesaria|Categoría|Descripción|Requisitos|
+|:----|:----|:----|:----|:----|:----|:----|
+|Accio|1|-|-|Utilidad|Hechizo invocador que atrae objetos hacia el conjurador. Es útil para recuperar artículos lejanos sin tener que moverse.|Pronunciación clara y concentración en el objeto deseado.|
+|Alohomora|1|-|-|Utilidad|Hechizo de apertura que desbloquea puertas y cerraduras. Es uno de los primeros hechizos que aprenden los estudiantes.|Movimiento de varita, pronunciación correcta y enfoque en el objetivo.|
+|Aquamenti|1|-|-|Utilidad|Invoca agua pura desde la varita, útil para diversas situaciones, incluyendo la hidratación.|Pronunciación clara y un movimiento de varita.|
+|Braquiam Emendo|1|-|-|Sanación|Repara fracturas en extremidades de forma efectiva. Se utiliza comúnmente en primeros auxilios mágicos.|Pronunciación clara y un movimiento de varita adecuado.|
+|Colloportus|1|-|-|Utilidad|Cierra y sella puertas de manera mágica, impidiendo que se abran sin el hechizo adecuado.|Pronunciación clara y un movimiento de varita.|
+|Colovaria|1|-|-|Transformación|Cambia el color de un objeto, usado a menudo en magia decorativa.|Pronunciación clara y un movimiento de varita.|
+|Confringo|1|6 + CDV + daño impacto [D6]|Requiere relativa puntería|Encantamiento|Causa una explosión controlada y proyecta objetos por los aires. Es útil tanto en combate como en situaciones de emergencia.|Pronunciación clara y un movimiento explosivo de la varita.|
+|Confundo|1|Pérdida Acción de movimiento y defensa|-|Encantamiento|Confunde a la víctima, dificultando su capacidad para actuar o pensar con claridad. Se usa en combate y en escapatorias.|Pronunciación clara y un movimiento de varita.|
+|Expelliarmus|1|2 + CDV + Desarme|Desarmar requiere puntería|Maldición|Desarma a un oponente al expulsar objetos de sus manos. Es una técnica común en combates mágicos.|Pronunciación clara y un movimiento de varita decidido.|
+|Fiery|1|-|-|Encantamiento|Crea llamas o efectos de fuego. Usado para crear espectáculos o para asustar a los enemigos.|Pronunciación clara y un movimiento de varita.|
+|Impedimenta|1|Pérdida Acción de movimiento|-|Maldición|Detiene a un oponente y lo ralentiza, dificultando su avance. Es útil en situaciones de combate.|Pronunciación clara y un movimiento de varita.|
+|Lapifors|1|-|-|Transformación|Transforma objetos en conejos. Es un hechizo de transformación divertido y a menudo utilizado en espectáculos.|Pronunciación clara y un movimiento de varita.|
+|Lumos|1|-|-|Encantamiento|Crea luz en la punta de la varita, iluminando el entorno. Es uno de los hechizos más básicos que se enseñan.|Pronunciación clara y un movimiento circular de la varita.|
+|Nox|1|-|-|Utilidad|Apaga la luz creada por el hechizo Lumos, permitiendo la oscuridad nuevamente. Es útil para la discreción.|Pronunciación clara y un movimiento de varita.|
+|Obscuro|1|Pérdida Acción ataque y defensa|-|Maldición|Cubre los ojos de la víctima, impidiendo que vea. Útil para confundir o incapacitar temporalmente.|Pronunciación clara y un movimiento de varita.|
+|Periculum|1|-|-|Utilidad|Lanza un destello de luz roja en el aire, señalando o alertando a otros. Usado como una señal de advertencia.|Pronunciación clara y un movimiento de varita.|
+|Protego|1|10 + CDV|-|Protección|Crea un escudo mágico que bloquea ataques, protegiendo al lanzador de daños. Fundamental en duelos.|Pronunciación clara y un movimiento enfocado de la varita.|
+|Reparo|1|-|-|Utilidad|Repara objetos rotos o dañados, restaurándolos a su estado original. Es uno de los hechizos más útiles y prácticos.|Pronunciación clara y un movimiento de varita.|
+|Rictusempra|1|1 + CDV + Pérdida Acción defensa|-|Maldición|Provoca cosquillas en la víctima, incapacitando temporalmente. Puede ser usado para distraer o incapacitar oponentes.|Pronunciación clara y un movimiento de varita.|
+|Tergeo|1|-|-|Utilidad|Limpia objetos o superficies, absorbiendo la suciedad. Es un hechizo de limpieza común.|Pronunciación clara y un movimiento de varita.|
+|Titillando|1|-|-|Utilidad|Provoca cosquillas a la víctima, haciéndola reír. Usado para distraer o desarmar a oponentes.|Pronunciación clara y un movimiento de varita.|
+|Verdimillious|1|-|-|Utilidad|Crea un destello verde que puede cegar temporalmente a los enemigos. Es útil en situaciones de combate.|Pronunciación clara y un movimiento de varita.|
+|Anapneo|2|-|-|Sanación|Despeja la garganta de una persona que se ahoga, permitiéndole respirar de nuevo. Es muy útil en situaciones de emergencia.|Pronunciación clara y dirección hacia la persona afectada.|
+|Aqua Eructo|2|-|-|Utilidad|Genera un chorro de agua desde la varita. Puede ser útil en situaciones de incendio o para hidratar a alguien.|Pronunciación correcta y un movimiento en forma de 'S'.|
+|Arania Exumai|2|Eficaz contra criatura|-|Encantamiento|Repele arañas y otros arácnidos. Es especialmente útil para aquellos que tienen aracnofobia.|Pronunciación correcta y un movimiento decidido de la varita.|
+|Aresto Momentum|2|-|-|Utilidad|Reduce la velocidad de un objeto, permitiendo que caiga lentamente. Puede ser útil para salvar objetos o personas de caer.|Pronunciación clara y un movimiento descendente de la varita.|
+|Ascendio|2|-|-|Utilidad|Permite que el conjurador ascienda en el aire. Puede ser útil para alcanzar lugares altos o escapar de situaciones peligrosas.|Pronunciación clara y un movimiento ascendente de la varita.|
+|Bauleo|2|-|-|Protección|Crea un área de contención mágica que retiene objetos. Se utiliza para proteger artículos valiosos o peligrosos.|Pronunciación clara y un movimiento de varita específico.|
+|Caput Bullae|2|-|-|Encantamiento|Crea una burbuja en la cabeza de la víctima, impidiendo que escuche. Se usa a menudo en situaciones cómicas o de distracción.|Pronunciación clara y un movimiento de varita.|
+|Carpe Retractum|2|-|-|Utilidad|Atrae objetos hacia el lanzador, permitiendo que se recojan sin moverse. Puede ser muy útil en diversas situaciones.|Pronunciación clara y un movimiento de varita.|
+|Deprimo|2|-|-|Utilidad|Reduce la altura de un objeto, permitiendo que se mueva a un nivel más bajo.|Pronunciación clara y un movimiento de varita.|
+|Depulso|2|2 + CDV + daño impacto [D6]|-|Encantamiento|Empuja a un objeto o persona, alejándolos del lanzador. Puede ser utilizado en combate o para despejar espacio.|Pronunciación clara y un movimiento de varita.|
+|Descendio|2|-|-|Utilidad|Hace que el conjurador descienda en el aire, útil para bajar de alturas. A menudo se utiliza para descender con seguridad.|Pronunciación clara y un movimiento descendente de la varita.|
+|Desmaius (Flipendo)|2|5 + CDV + daño impacto [D6]|Pérdida Turno requiere puntería|Maldición|Deja a la víctima inconsciente, incapacitando temporalmente. Es útil en combate o para capturar enemigos.|Pronunciación clara y un movimiento preciso de la varita.|
+|Diffindo|2|7 + CDV + daño precision [D10]|Requiere puntería|Encantamiento|Corta objetos con precisión, permitiendo dividir materiales de forma controlada. Es útil en combate y para realizar tareas específicas.|Pronunciación clara y un movimiento de varita rápido.|
+|Diminuendo|2|-|-|Transformación|Reduce el tamaño de un objeto o criatura, volviéndolos más manejables. Se utiliza a menudo en situaciones cotidianas.|Pronunciación clara y un movimiento de varita.|
+|Duro|2|-|-|Utilidad|Convierte objetos blandos en piedra, haciéndolos más resistentes. Se utiliza en diversas aplicaciones mágicas.|Pronunciación clara y un movimiento de varita.|
+|Engorgio|2|-|-|Transformación|Aumenta el tamaño de un objeto o criatura, haciéndolo más grande. Se usa para diversas tareas, desde la defensa hasta la utilidad cotidiana.|Pronunciación clara y un movimiento de varita.|
+|Erecto|2|-|-|Utilidad|Erige objetos verticalmente, construyendo estructuras o levantando elementos del suelo. Es útil para crear refugios o barricadas.|Pronunciación clara y un movimiento de varita ascendente.|
+|Espongify|2|-|-|Utilidad|Convierte superficies en esponjosas, permitiendo que las caídas sean menos peligrosas. Se utiliza en situaciones de riesgo.|Pronunciación clara y un movimiento de varita suave.|
+|Expulso|2|-|-|Encantamiento|Expulsa a un objeto o ser con fuerza, alejándolo del lanzador. Es útil para deshacerse de amenazas.|Pronunciación clara y un movimiento de varita hacia adelante.|
+|Fumos|2|-|-|Encantamiento|Crea una nube de humo para ocultar al lanzador o confundir a los oponentes. Es útil para escapadas o distracciones.|Pronunciación clara y un movimiento de varita.|
+|Furunculus|2|4 + CDV + daño pasivo [D4]|Requiere puntería|Maldición|Hace que la piel de la víctima estalle en forúnculos. Usado principalmente para provocar molestias.|Pronunciación clara y un movimiento de varita específico.|
+|Glisseo|2|-|-|Utilidad|Convierte superficies en deslizantes, permitiendo deslizarse sobre ellas. Útil en situaciones de escape o diversión.|Pronunciación clara y un movimiento de varita.|
+|Gravis|2|-|-|Utilidad|Aumenta el peso de un objeto, haciéndolo más difícil de mover. Puede ser usado para mantener objetos en su lugar.|Pronunciación clara y un movimiento de varita.|
+|Herbivicus|2|-|-|Encantamiento|Promueve el crecimiento de plantas y vegetación. Usado en herbología y jardinería mágica.|Pronunciación clara y un movimiento de varita suave.|
+|Immobilus|2|Pérdida Turno|-|Maldición|Inmoviliza a la víctima temporalmente, dejándola incapaz de moverse. Comúnmente usado en duelos.|Pronunciación clara y un movimiento de varita.|
+|Impervius|2|-|-|Encantamiento|Repele líquidos, protegiendo al conjurador y objetos de la lluvia o el agua. Es útil en diversas situaciones.|Pronunciación clara y un movimiento de varita.|
+|Incarcerous|2|3 + CDV + Pérdida Turno|Requiere puntería|Maldición|Inmoviliza a un oponente con cuerdas mágicas. Usado para capturar enemigos en combates.|Pronunciación clara y un movimiento de varita.|
+|Incendio|2|9 + CDV + daño pasivo [D4]|-|Encantamiento|Genera fuego desde la punta de la varita, útil para encender cosas o atacar enemigos.|Pronunciación precisa y un movimiento de varita.|
+|Inflatus|2|-|-|Encantamiento|Inflar objetos o criaturas, haciéndolos más grandes. Usado en situaciones cómicas o para distraer enemigos.|Pronunciación clara y un movimiento de varita.|
+|Jaulio|2|-|-|Utilidad|Hechizo que provoca un sonido similar a un grito de auxilio, útil para llamar la atención en situaciones de peligro.|Pronunciación clara y un movimiento de varita.|
+|Levicorpus|2|-|-|Maldición|Levanta a la víctima por los tobillos, dejándola suspendida en el aire. Puede ser usado con fines cómicos o maliciosos.|Pronunciación correcta y un movimiento de varita específico.|
+|Liberacorpus|2|-|-|Encantamiento|Contrarresta el efecto de Levicorpus, liberando a la víctima. Se utiliza para corregir situaciones provocadas por el hechizo anterior.|Pronunciación clara y un movimiento de varita.|
+|Locomotor|2|-|-|Encantamiento|Permite mover objetos a distancia como si flotaran, útil para transportar cargas o realizar trucos.|Pronunciación clara y un movimiento de varita.|
+|Lumos Maxima|2|-|-|Encantamiento|Crea una luz mucho más brillante que Lumos, iluminando un área más amplia. Usado en situaciones oscuras.|Pronunciación clara y un movimiento amplio de la varita.|
+|Mimblewimble|2|-|-|Maldición|Crea un nudo en la lengua de la víctima, dificultando su habla.|Pronunciación clara y un movimiento de varita.|
+|Mucus ad Nauseam|2|-|-|Maldición|Causa que la víctima produzca grandes cantidades de moco, incomodándola.|Pronunciación clara y un movimiento de varita.|
+|Oculus Reparo|2|-|-|Utilidad|Repara gafas o lentes rotos. Es un hechizo específico, comúnmente utilizado por aquellos que llevan gafas.|Pronunciación clara y un movimiento de varita.|
+|Oppugno|2|N obj x tam(S[D4], M[D6], L[D8], XL[D10])|Requiere puntería|Encantamiento|Ordena a los objetos voladores que ataquen a un objetivo. Usado en combate para distraer y dañar enemigos.|Pronunciación clara y un movimiento de varita.|
+|Prior Incantato|2|-|-|Encantamiento|Revela el último hechizo que lanzó una varita, útil para descubrir los movimientos del oponente.|Pronunciación clara y un movimiento de varita.|
+|Reducio|2|-|-|Utilidad|Reduce el tamaño de un objeto, haciéndolo más pequeño y fácil de manejar. Es útil en situaciones cotidianas.|Pronunciación clara y un movimiento de varita.|
+|Rennervate|2|-|-|Sanación|Revive o despierta a una persona que está desmayada o inconsciente. Es vital en situaciones de primeros auxilios mágicos.|Pronunciación clara y un movimiento de varita.|
+|Reparifarge|2|-|-|Sanación|Repara efectos de maleficios menores, devolviendo a la víctima a su estado original. Es un hechizo útil para deshacer daños menores.|Pronunciación clara y un movimiento de varita.|
+|Salvio Hexia|2|[Área] 8 + CDV (sólo contra Maldiciones)|CDV + D20 > 8 (Área 1) <br> Área +1 acum > [10, 15, 18, 21]|Protección|Protege un área contra maleficios / maldiciones. Es comúnmente utilizado en defensas de lugares mágicos.|Pronunciación clara y un movimiento de varita.|
+|Silencio|2|-|-|Utilidad|Silencia a la víctima o al área objetivo, evitando que produzcan ruido. Útil para mantener discreción.|Pronunciación clara y un movimiento de varita.|
+|Skurge|2|-|-|Utilidad|Elimina manchas o marcas, limpiando el área afectada. Es un hechizo práctico y cotidiano.|Pronunciación clara y un movimiento de varita.|
+|Sonorus|2|-|-|Utilidad|Amplifica la voz del conjurador, haciéndola audible a grandes distancias. Usado para discursos o anuncios.|Pronunciación clara y un movimiento de varita.|
+|Tarantallegra|2|Pérdida Acción de movimiento y defensa|-|Maldición|Provoca que los pies del objetivo bailen incontrolablemente, incapacitando al oponente. Es común en duelos y enfrentamientos.|Pronunciación clara y un movimiento de varita.|
+|Tragababosas|2|-|-|Maldición|Invoca una criatura que puede causar molestias o distracciones. Se utiliza en situaciones cómicas o para confundir enemigos.|Pronunciación clara y un movimiento de varita.|
+|Wingardium Leviosa|2|-|-|Utilidad|Hechizo de levitación que permite levantar objetos en el aire. Requiere una técnica específica y precisión en el movimiento.|Pronunciación precisa y un movimiento circular de la varita.|
+|Aqua Volatem|3|-|-|Utilidad|Crea un chorro de agua que vuela. A menudo utilizado en magia de espectáculo o para realizar trucos.|Pronunciación correcta y un movimiento fluido de la varita.|
+|Avifors|3|-|-|Transformación|Transforma objetos inanimados en aves. Es un hechizo de transformación que requiere práctica.|Pronunciación correcta y un movimiento de varita que simule el vuelo.|
+|Avis|3|-|-|Convocación|Convoca una bandada de aves desde la varita. Puede ser utilizado para distraer a enemigos o como espectáculo.|Pronunciación clara y un movimiento amplio de la varita.|
+|Bombarda|3|15 + CDV + daño impacto [D6] ( + daño pasivo [D4])|Requiere puntería <br> Quemadura requiere mucha puntería|Encantamiento|Causa una explosión controlada, destruyendo objetos en el área de efecto. Se utiliza en combate y para abrir caminos.|Pronunciación clara y un movimiento de varita enérgico.|
+|Calvario|3|3 + CDV |-|Maldición|Despoja a la víctima de su cabello, causando humillación y dolor. Es una de las maldiciones menos mortales pero igualmente maliciosas.|Pronunciación precisa y un movimiento de varita decidido.|
+|Defodio|3|-|-|Encantamiento|Causa que el objeto se rompa o se divida. Es útil para despejar caminos.|Pronunciación clara y un movimiento de varita rápido.|
+|Draconifors|3|-|-|Transformación|Convierte objetos en dragones de pequeño tamaño, a menudo utilizados en espectáculos de magia.|Pronunciación clara y un movimiento de varita específico.|
+|Episkey|3|-|-|Sanación|Cura heridas menores al aplicar el hechizo sobre el área afectada. Es fundamental en el tratamiento de heridas durante conflictos.|Pronunciación clara y un movimiento de varita.|
+|Evanesco|3|-|-|Convocación|Desaparece objetos, haciéndolos desaparecer por completo. Se utiliza para eliminar elementos no deseados.|Pronunciación clara y un movimiento de varita.|
+|Expecto Patronum|3|Eficaz contra criatura|-|Encantamiento|Invoca un Patronus para repeler Dementores. Requiere un recuerdo feliz y una gran concentración.|Gran poder mágico y un enfoque en un recuerdo positivo.|
+|Ferula|3|-|-|Sanación|Crea vendajes o férulas alrededor de una herida, estabilizándola. Es fundamental en situaciones de primeros auxilios.|Pronunciación clara y un movimiento de varita.|
+|Finite|3|-|-|Utilidad|Detiene los efectos de otros encantamientos o maldiciones. Se usa para contrarrestar hechizos de otros.|Pronunciación clara y un movimiento de varita.|
+|Finite Incantatem|3|-|-|Encantamiento|Cancela todos los efectos de hechizos en un área determinada. Es útil para restaurar el estado normal tras un conflicto mágico.|Pronunciación clara y un movimiento de varita.|
+|Flagrate|3|-|-|Utilidad|Permite dibujar símbolos ardientes en el aire con la varita. A menudo utilizado para dejar señales o marcas.|Pronunciación clara y un movimiento creativo de la varita.|
+|Glacius|3|12 + CDV + Pérdida Turno|Pérdida de turno requiere mucha puntería|Encantamiento|Congela objetos o criaturas, deteniendo su movimiento. Es útil en combates o para controlar situaciones.|Pronunciación clara y un movimiento de varita adecuado.|
+|Homenum Revelio|3|-|-|Utilidad|Revela la presencia de seres humanos en el área. Es útil para localizar enemigos o aliados ocultos.|Pronunciación clara y un movimiento de varita específico.|
+|Illegibilus|3|-|-|Utilidad|Convierte texto legible en ilegible, impidiendo que otros puedan leerlo. Útil para proteger información.|Pronunciación clara y un movimiento de varita.|
+|Lacarnum Inflamarae|3|-|-|Encantamiento|Convoca llamas de manera controlada, permitiendo crear fuego de forma precisa. Usado en situaciones fuera de combate.|Pronunciación clara y un movimiento de varita enérgico.|
+|Lumos Solem|3|Eficaz contra criatura|-|Encantamiento|Crea una luz brillante que puede ahuyentar a criaturas oscuras. Es útil para la defensa contra amenazas mágicas.|Pronunciación clara y un movimiento específico de la varita.||Meteolojinx Recanto|3|-|-|Encantamiento|Detiene los efectos de los hechizos relacionados con el clima. Se usa para restaurar condiciones normales después de un hechizo de clima.|Pronunciación clara y un movimiento de varita.|
+|Muffliato|3|-|-|Utilidad|Imparte un ruido molesto a quienes se encuentren cerca, evitando que escuchen conversaciones privadas.|Pronunciación clara y un movimiento de varita.|
+|Orchideous|3|-|-|Convocación|Convoca flores desde la varita. Es un hechizo decorativo y a menudo utilizado en eventos sociales.|Pronunciación clara y un movimiento de varita.|
+|Orientame|3|-|-|Utilidad|Indica al lanzador la dirección correcta a seguir. Es útil en situaciones de confusión o en la naturaleza.|Pronunciación clara y un movimiento de varita.|
+|Partis Temporus|3|-|-|Utilidad|Crea una apertura en un campo de fuerza creado por otro hechizo, permitiendo que otros pasen. Es útil en situaciones defensivas.|Pronunciación clara y un movimiento de varita.|
+|Protego Horribilis|3|20 + CDV (sólo M.O., excepto Avada Kedavra)|Requiere puntería|Protección|Crea un escudo que protege contra ataques oscuros. Usado en combates contra magos oscuros.|Pronunciación clara y un movimiento enfocado de la varita.|
+|Quenchedium|3|-|-|Utilidad|Apaga llamas y fuegos de forma efectiva. Se utiliza para controlar incendios y accidentes.|Pronunciación clara y un movimiento de varita.|
+|Quietus|3|-|-|Utilidad|Silencia el ruido de un área o de un objeto, permitiendo un entorno más tranquilo. Es útil para la discreción.|Pronunciación clara y un movimiento de varita.|
+|Reducto|3|18 + CDV + daño impacto [D6]|Requiere puntería|Maldición|Desintegra objetos o seres, reduciéndolos a escombros. Es un hechizo poderoso utilizado en combates.|Pronunciación clara y un movimiento de varita fuerte.|
+|Relashio|3|-|-|Utilidad|Forza a una persona u objeto a soltarse de algo que esté sosteniendo, útil en escapes.|Pronunciación clara y un movimiento de varita.|
+|Relaxo|3|-|-|Utilidad|Relaja el cuerpo o la mente de la víctima, útil para calmar a personas ansiosas o agitada. Es un hechizo suave.|Pronunciación clara y un movimiento de varita.|
+|Repello Inimicum|3|-|-|Utilidad|Repele a los enemigos o seres hostiles, protegiendo al conjurador. Usado en defensas mágicas.|Pronunciación clara y un movimiento de varita.|
+|Repello Muggletum|3|-|-|Utilidad|Repele a los muggles de un área, manteniéndolos alejados de lugares mágicos. Es un hechizo de protección.|Pronunciación clara y un movimiento de varita.|
+|Riddikulus|3|Eficaz contra criatura|-|Encantamiento|Transforma una criatura aterradora en algo cómico, desarmando su efecto. Es utilizado contra Boggarts.|Pronunciación clara y un movimiento de varita.|
+|Serpensortia|3|-|-|Convocación|Invoca una serpiente para que aparezca. Utilizado para intimidar a oponentes o en espectáculos.|Pronunciación clara y un movimiento de varita.|
+|Steleus|3|-|-|Utilidad|Elimina el sonido de pasos, permitiendo moverse sin ser escuchado. Útil para el sigilo.|Pronunciación clara y un movimiento de varita.|
+|Taboo|3|-|-|Utilidad|Marca una palabra o nombre como tabú, haciendo que cualquier mención active una respuesta mágica. Usado para control y vigilancia.|Gran concentración y un movimiento de varita preciso.|
+|Ventus|3|15 + CDV + daño impacto [D6]|-|Encantamiento|Crea un viento fuerte, útil para mover objetos o alterar el entorno. Es un hechizo versátil en diversas situaciones.|Pronunciación clara y un movimiento de varita.|
+|Vipera Evanesca|3|-|-|Convocación|Hace que una serpiente desaparezca, un hechizo útil en combate o en situaciones peligrosas.|Pronunciación clara y un movimiento de varita.|
+|Aparecium|4|-|-|Utilidad|Revela objetos ocultos o invisibles. Es útil para descubrir secretos o localizar artículos perdidos.|Pronunciación precisa y un movimiento de varita enfocado.|
+|Auris Magna|4|-|-|Utilidad|Aumenta el poder del oído para escuchar sonidos o voces a larga distancia. También sirve para escuchar a través de muros y paredes.|Pronunciación clara y un movimiento amplio de la varita.|
+|Bombarda Maxima|4|20 + CDV + daño impacto [D12] (+ daño pasivo [D4])|Requiere puntería <br> Quemadura requiere mucha puntería|Encantamiento|Causa una explosión masiva, de mayor alcance que Bombarda. Este hechizo puede causar daños significativos.|Pronunciación clara y un movimiento de varita muy enérgico.|
+|Cave Inimicum|4|-|-|Utilidad|Alerta al conjurador sobre la presencia de enemigos. Es usado como precaución en lugares peligrosos.|Pronunciación precisa y enfoque.|
+|Cistem Aperio|4|-|-|Utilidad|Abre contenedores y baúles mágicos, permitiendo acceder a su contenido.|Pronunciación clara y un movimiento de varita.|
+|Deletrius|4|-|-|Utilidad|Elimina la evidencia de otros hechizos, permitiendo que lo que se conjuró anteriormente desaparezca.|Pronunciación clara y concentración.|
+|Fianto Duri|4|-|CDV + D20 > 15 (Área 3) <br> Área +2 acum > [18, 21]|Protección|Crea un escudo protector alrededor de un área, impidiendo la entrada de intrusos. Utilizado para proteger lugares (Partis Temporus).|Pronunciación clara y un movimiento de varita enfocado.|
+|Multicorfors|4|-|-|Transformación|Transforma varios objetos a la vez. Requiere concentración y control sobre los objetos a modificar.|Pronunciación clara y un movimiento de varita controlado.|
+|Obliviate|4|-|-|Encantamiento|Borra o altera los recuerdos de la víctima, comúnmente usado para proteger secretos. Dependiendo del uso, puede considerarse magia oscura.|Gran concentración y un movimiento preciso de la varita.|
+|Orbis|4|-|-|Utilidad|Crea un círculo mágico que atrapa a las criaturas dentro de él. Es utilizado para controlar o contener seres mágicos.|Pronunciación clara y un movimiento de varita.|
+|Petrificus Totalus|4|Inmobilizado permamentemente|Requiere mucha puntería|Maldición|Inmoviliza completamente a la víctima, dejándola incapaz de moverse. Comúnmente usado en combates o como medida de seguridad.|Pronunciación clara y un movimiento preciso de la varita.|
+|Protego Maxima|4|[Área] 20 + CDV|CDV + D20 > 8 (Área 3) <br> Área +2 acum > [10, 15, 18]|Protección|Crea un escudo poderoso que protege un área extensa. Es un hechizo muy avanzado y poderoso (Partis Temporus).|Gran poder mágico y un movimiento de varita amplio.|
+|Revelio|4|-|-|Utilidad|Revela propiedades ocultas de objetos o seres, permitiendo al lanzador conocer más sobre ellos. Útil en la investigación.|Pronunciación clara y un movimiento de varita.|
+|Sectumsempra|4|22 + PDV + daño precision [D10] (+ daño pasivo [D4])|Requiere puntería <br> Heridas graves requiere mucha puntería|Maldición|Causa heridas profundas y laceraciones en la víctima. Es una maldición poderosa y peligrosa, utilizada con gran riesgo.|Gran poder mágico y un movimiento rápido de la varita.|
+|Vera Verto|4|-| |Transformación|Transforma criaturas en objetos, un hechizo de transformación que requiere práctica y precisión.|Pronunciación clara y un movimiento de varita.|
+|Avada Kedavra|5|Letal|Requiere puntería|Maldición (M.O)|Hechizo mortal que provoca la muerte instantánea de la víctima. Es una de las tres maldiciones imperdonables.|Gran poder mágico, movimiento preciso de la varita y pronunciación clara.|
+|Crucio|5|30 + PDV + daño rencor [D6]|Requiere puntería|Maldición (M.O.)|Causa un dolor intenso y tortura a la víctima. Es una de las tres maldiciones imperdonables y requiere gran poder mágico.|Pronunciación precisa y un movimiento de varita controlado.|
+|Dissendium|5|-|-|Utilidad|Abre pasajes secretos, permitiendo el acceso a lugares ocultos. Es utilizado en la exploración de áreas misteriosas.|Pronunciación clara y un movimiento de varita adecuado.|
+|Fidelio|5|-|-|Utilidad|Oculta información dentro de un secreto, que solo puede ser conocido por un guardián designado. Usado para proteger lugares importantes.|Pronunciación clara y enfoque en el secreto.|
+|Fiendfyre|5|20 + PDV + daño pasivo [D4]|Requiere mucha puntería, sino pifia|Maldición (M.O)|Crea un fuego mágico que consume todo a su paso, extremadamente difícil de controlar. Es usado por magos oscuros.|Gran poder mágico y un movimiento de varita potente.|
+|Fiendlocked|5|-|-|Utilidad|Cierra un lugar con un hechizo que solo puede ser abierto por una persona específica. Se usa para proteger secretos importantes.|Pronunciación clara y un movimiento de varita.|
+|Geminio|5|-|-|Utilidad|Duplica objetos mágicamente, creando copias exactas. Es usado en situaciones donde se necesitan múltiples copias de un objeto.|Pronunciación clara y un movimiento de varita.|
+|Homoformae|5|-|-|Transformación|Transforma a un ser humano en una criatura. Es un hechizo avanzado que requiere gran control.|Pronunciación clara y un movimiento específico de la varita.|
+|Imperio|5|-|-|Maldición (M.O)|Controla la voluntad de la víctima, permitiendo que el conjurador actúe en su lugar. Es una de las tres maldiciones imperdonables.|Gran poder mágico y un enfoque intensivo.|
+|Inferius|5|-|-|Encantamiento (M.O.)|Reanimar a los muertos, creando zombis que obedecen las órdenes del conjurador. Es un hechizo oscuro y peligroso.|Pronunciación clara y un movimiento de varita específico.|
+|Legerements|5|-|-|Encantamiento|Permite leer la mente de la víctima, accediendo a sus pensamientos. Es un hechizo avanzado que puede ser muy invasivo.|Pronunciación clara y un enfoque intenso.|
+|Piertotum Locomotor|5|-|-|Encantamiento|Animar estatuas u objetos inanimados para que luchen del lado del conjurador. Es un hechizo defensivo avanzado.|Pronunciación clara y un movimiento de varita específico.|
+|Portus|5|-|-|Encantamiento|Convierte un objeto en un traslador, permitiendo el transporte instantáneo. Es un hechizo avanzado que requiere precaución.|Pronunciación clara y un movimiento de varita.|
+|Protego Totalum|5|[Área] 50 + CDV|CDV + D20 > 10 (Área 1) <br> Área +2 acum > [15, 18, 21]|Protección|Crea un escudo que protege de ataques en 360 grados. Usado en situaciones de defensa extrema (Partis Temporus).|Pronunciación clara y un movimiento de varita.|
+|Vulnera Sanentur|5|-|-|Sanación|Cura heridas graves, un hechizo avanzado que requiere gran control. Es fundamental en situaciones de emergencia.|Gran concentración y un movimiento de varita preciso.|

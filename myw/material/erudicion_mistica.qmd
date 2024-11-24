@@ -1,0 +1,56 @@
+---
+title: Erudición Mística
+format:
+   html:
+      toc: true
+      toc-depth: 3
+---
+
+# Erudición Mística
+
+Es el conocimiento teórico y práctico sobre diversas disciplinas mágicas, llegando a alcanzar poderes místicos de premonición y adivinación.
+
+1. Conocimiento: conocimiento profundo de historia mágica, lectura e interpretación de runas.
+   Relacionado con _inteligencia_, acciones relacionadas con la historia, cultura o runas requerirán de tiradas de de _inteligencia_ (_inteligencia_ + D20).
+1. Interpretación: Capacidad de interpretar señales de magia, visiones a través de distintos objetos e incluso visualizar hechos que aún no han occurido.
+   Relacionado con _potencial mágico_, se requiere una tirada de _potencial mágico_ + D20.
+
+## Tabla de contenido
+
+|Capacidad|Poder místico|Descripción|Requisitos / Tirada|
+|:----|:----|:----|:----|
+|Conocimiento mágico popular|1|Conocimiento básico de historia mágica, cultura mágica popular y runas simples.|Inteligencia media.|
+|Percepción de alteraciones en la magia|2|Capacidad de sentir alteraciones en la magia (por ejemplo, concentración de magia poderosa u oscura en determinadas ubicaciones).|Potencial mágico medio.|
+|Descrifrar vagamente el futuro ajeno|2|Capacidad de mediante la tesomancia, quiromancia o cartomancia, interpretar señales sobre el pasado o el futuro de otras personas.|Potencial mágico medio, puede requerir objetos.|
+|Interpretación astrológica|3|Capacidad de interpretar señales en el cielo nocturno sobre hechos que aun no han pasado.|Potencial mágico medio.|
+|Conocimiento mágico avanzado|3|Profundo conocimiento de historia mágica, cultura mágica internacional y runas avanzadas.|Inteligencia alta.|
+|Anticipación del peligro|3|Capacidad de detectar que existe un peligro mágico inminente.|Potencial mágico alto.|
+|Respeto mágico|4|Capacidad de diálogo y negociación con criaturas mágicas inteligentes que no tienen en general buenas relaciones con los magos.|Potencial mágico altos.|
+|Detección de magia oculta|4|Capacidad de detectar qué peligros o tipos de magia oculta se aproximan.|Potencial mágico alto.|
+|Premonición|5|Capacidad de ver con claridad hechos, lugares o circunstancias que han acontecido en otra línea temporal (pasadas o futuras) mediante la bola de cristal.|Potencial mágico alto, requiere de una bola de cristal.|
+
+__Astrología__: arte de interpretar la orientación de las estrellas para predecir eventos del futuro.
+
+__Tesomancia__: arte de leer las hojas de té para predecir eventos del futuro a otras personas.
+
+__Quiromancia__:  arte de la predicción de eventos del futuro de otras personas a través del estudio de su palma de la mano.
+
+__Cartomancia__: arte de la lectura de cartas (del tarot) para conocer mejor los acontecimientos futuros.
+
+
+El __Respeto mágico__ afecta a la siguiente lista de criaturas mágicas inteligentes que no son consideradas bestias o animales fantásticos.
+El jugador con __4__ puntos en _erudición mística_ cuenta con el  __Respeto mágico__, y podrá entablar relaciones con ellos, contar con su confianza (nada común entre los magos y brujas) y con conocimientos de su cultura y constumbres.
+
+|Ser|Descripción|
+|:----|:----|
+|Arpía|Ser come-niños que parece una bruja vieja con muchas verrugas. Tienen sólo magia rudimentaria, similar a la observada en los trolls.|
+|Centauros|Criaturas mágicas de clasificación XXXX por el MM, cuya cabeza, torso y brazos parecen humanos y estan unidos a la parte inferior del cuerpo de un caballo. Sin embargo, son su propia especie individual y, por tanto, no son Híbridos. También tienen una rica historia y son conocidos por tener un talento natural en tiro con arco, magia curativa, adivinación y astronomía. A pesar de poseer "inteligencia humana", fueron clasificados como Bestias por el MM a petición propia, ya que no estaban contentos de tener que compartir el estatus de Ser con arpías y vampiros, conocidas criaturas oscuras.|
+|Duendes|Raza muy inteligente de pequeños humanoides con dedos y pies largos que coexisten con los magos y brujas. Hablan en un idioma conocido como duendigonza, y son buenos orfebres notables por su platería; incluso acuñan monedas como dinero mágico. Debido a sus habilidades con el dinero y las finanzas, controlan la economía mágica en gran medida y administran el banco mágico Gringotts. Tienen su tipo de magia y pueden hacer magia sin varita. Su esperanza de vida supera los 100 años.|
+|Elfos domésticos|También conocidos como elfos,son criaturas mágica inmensamente devotas y leales a la persona designada como su amo. Sirven a magos y brujas y generalmente se encuentran bajo el empleo de viejas familias de magos que residen en establecimientos elaborados, como mansiones, y deben hacer todo lo que sus amos mandan a menos que sean liberados. Un elfo doméstico solo puede ser liberado cuando su amo les entrega ropa. La mayoríano soportan la idea de ser libres. Tienen su propia marca de magia si Su esperanza de vida data de cientos de años, sin superar los 1000 años.|
+|Gente del agua|Criaturas mágicas con inteligencia semi-humana que viven en el fondo del agua. Hay gente del agua por todo el mundo, y varían en apariencia casi tanto como los seres humanos. Sus prácticas y costumbres tienen un halo de misterio equiparable al que rodea a los centauros, aunque aquellos magos que han aprendido sirenio hablan de comunidades sumamente organizadas que varían de tamaño según el hábitat y que, en algunos casos, disponen de viviendas construidas con mucho esmero. También se sabe que domestican criaturas tales como grindylows e hipocampos. Al igual que los centauros, la gente del agua ha rechazado el estatus de seres en favor de la clasificación de bestias, ya que estaban en contra de compartir el estatus con arpías y vampiros.|
+|Gigantes|Homínidos muy grande que potencialmente puede llegar a unos veinte metros de altura, y parecen seres humanos de gran tamaño. Los gigantes no son tan inteligentes como los magos y las brujas, pero tienen su propio lenguaje, cultura y sociedad. Una tribu de gigantes es dirigida por el gigante mayor, conocido como Gurg. Su esperanza de vida supera los 200 años.|
+|Licántropos (hombres lobo) en forma humana|Personas que llevan consigo la enfermedad de la licantropía. Tienen la capacidad de transformarse en un lobo en apariencia y naturaleza, al haber sido mordidas por un hombre lobo en su forma de lobo en el momento de la luna llena. El hombre lobo se transforma bajo la influencia de esta.|
+|Muggles|Comunidad de gente no mágica. Su esperanza de vida no supera los 100 años.|
+|Squibs|Gente no mágica nacida en familias con sangre mágica. Su esperanza de vida no supera los 100 años.|
+|Vampiros|Humanoides mágicos famosos por morder a las personas en el cuello y chuparles la sangre. De apariencia pálida y demacrada,poseen colmillos afilados para perforar las gargantas de sus víctimas. Su esperanza de vida no supera los 200 años.|
+|Veelas|Raza de semi-humanas remanentes de las sirenas. De apariencia de muy jóvenes y bellas mujeres, poseen una danza mágicamente seductora para la mayoría de los hombres. Cuando se enojan, sus rostros se convierten en algo parecido a la cabeza de un ave con picos largos y filosos y con largas plumas que nacen de sus hombros, también pueden lanzar bolas de fuego de sus manos.|
