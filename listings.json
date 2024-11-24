@@ -2,7 +2,12 @@
   {
     "listing": "/myw/index.html",
     "items": [
-      "/myw/material/manual_completo.html"
+      "/myw/material/criaturas.html",
+      "/myw/material/erudicion_mistica.html",
+      "/myw/material/hechizos_full.html",
+      "/myw/material/hechizos_combate.html",
+      "/myw/material/manual_completo.html",
+      "/myw/material/pociones.html"
     ]
   }
 ]
